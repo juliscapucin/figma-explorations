@@ -1,0 +1,26 @@
+---
+description: 
+globs: app/**/*.tsx, app/**/*.ts, app/**/*.css, components/**/*.tsx, components/**/*.ts, src/**/*.tsx, src/**/*.ts, src/**/*.css
+alwaysApply: false
+---
+
+# Design System Rules
+
+## Components
+- Use components from @/components/ui for all UI elements
+- Never create custom buttons, inputs, or modals - use the design system
+- Import icons from @/components/icons
+
+## Tokens
+- Use CSS variables for colors: var(--color-primary), var(--color-secondary)
+- Use spacing scale from TailwindCSS: p-8, m-16, gap-4
+- Typography: use text-display-large, text-title-medium, text-body-medium classes
+
+## Patterns
+- Cards use 16px padding and 8px border radius
+- Forms use 24px vertical spacing between fields
+- Modals are max 480px wide on desktop
+
+## Files to reference
+- src/components/ui/Button.tsx (canonical button implementation)
+- src/styles/tokens.css (all design tokens)
