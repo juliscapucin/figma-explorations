@@ -11,6 +11,7 @@
       "alpha": 1,
       "hex": "#F5F3EA"
     },
+    "$description": "The default background color for the application.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10841:211",
       "com.figma.scopes": [
@@ -31,6 +32,7 @@
       "alpha": 1,
       "hex": "#FBFAF7"
     },
+    "$description": "Used for elevated or nested surfaces that need gentle separation from the main background.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10866:16635",
       "com.figma.scopes": [
@@ -51,6 +53,7 @@
       "alpha": 1,
       "hex": "#302634"
     },
+    "$description": "The default color for elements or text that appears on top of the background.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10841:212",
       "com.figma.scopes": [
@@ -71,6 +74,7 @@
       "alpha": 1,
       "hex": "#1F1821"
     },
+    "$description": "Used for highest-emphasis text and icons where maximum contrast is needed.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10861:16540",
       "com.figma.scopes": [
@@ -91,6 +95,7 @@
       "alpha": 1,
       "hex": "#503F56"
     },
+    "$description": "Used for secondary text and icons that should be visible but less prominent.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10861:16539",
       "com.figma.scopes": [
@@ -111,6 +116,7 @@
       "alpha": 1,
       "hex": "#9A969E"
     },
+    "$description": "Used for focus outlines and interaction rings around interactive elements.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10841:213",
       "com.figma.scopes": [
@@ -131,6 +137,7 @@
       "alpha": 1,
       "hex": "#E7000B"
     },
+    "$description": "Used for destructive actions and error states that require immediate attention.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10841:214",
       "com.figma.scopes": [
@@ -151,6 +158,7 @@
       "alpha": 1,
       "hex": "#F8C3C5"
     },
+    "$description": "Used for subtle destructive backgrounds, badges, and low-emphasis error containers.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10866:16627",
       "com.figma.scopes": [
@@ -171,6 +179,7 @@
       "alpha": 1,
       "hex": "#8F0007"
     },
+    "$description": "Used for high-emphasis destructive states such as pressed or strongly highlighted error actions.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10866:16626",
       "com.figma.scopes": [
@@ -191,6 +200,7 @@
       "alpha": 1,
       "hex": "#069124"
     },
+    "$description": "Used for success states, confirmations, and positive status indicators.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10866:16628",
       "com.figma.scopes": [
@@ -211,6 +221,7 @@
       "alpha": 1,
       "hex": "#C5DCCA"
     },
+    "$description": "Used for subtle success backgrounds and low-emphasis positive feedback surfaces.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10866:16629",
       "com.figma.scopes": [
@@ -231,6 +242,7 @@
       "alpha": 1,
       "hex": "#035415"
     },
+    "$description": "Used for high-emphasis success states where stronger contrast is required.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10866:16630",
       "com.figma.scopes": [
@@ -251,6 +263,7 @@
       "alpha": 1,
       "hex": "#D6D1DB"
     },
+    "$description": "Used for less prominent elements, such as disabled buttons or disabled text.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10841:215",
       "com.figma.scopes": [
@@ -271,6 +284,7 @@
       "alpha": 1,
       "hex": "#716B76"
     },
+    "$description": "The default color for text or elements that appear on top of muted-background colored elements.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10841:216",
       "com.figma.scopes": [
@@ -291,6 +305,7 @@
       "alpha": 1,
       "hex": "#FFFD96"
     },
+    "$description": "The accent color used for highlights, links, and other interactive elements.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10841:220",
       "com.figma.scopes": [
@@ -311,6 +326,7 @@
       "alpha": 1,
       "hex": "#F68F60"
     },
+    "$description": "Used for secondary accent moments such as hover states, highlights, and emphasis areas.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10841:217",
       "com.figma.scopes": [
@@ -331,6 +347,7 @@
       "alpha": 1,
       "hex": "#4C7ECF"
     },
+    "$description": "Used for tertiary accent treatments in charts, tags, or supporting interactive elements.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10841:218",
       "com.figma.scopes": [
@@ -351,6 +368,7 @@
       "alpha": 1,
       "hex": "#28B297"
     },
+    "$description": "Used for additional accent variation to diversify highlights and data or category colors.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10841:221",
       "com.figma.scopes": [
@@ -371,6 +389,7 @@
       "alpha": 1,
       "hex": "#DAD5C9"
     },
+    "$description": "Used for neutral accent surfaces and soft decorative fills.",
     "$extensions": {
       "com.figma.variableId": "VariableID:10841:219",
       "com.figma.scopes": [
@@ -379,155 +398,168 @@
       "com.figma.isOverride": true
     }
   },
-  "button-primary-background": {
-    "$type": "color",
-    "$value": "{foreground}",
-    "$description": "Use this to emphasis main ui components",
-    "$extensions": {
-      "com.figma.variableId": "VariableID:10861:16534",
-      "com.figma.scopes": [
-        "ALL_SCOPES"
-      ],
-      "com.figma.isOverride": true
-    }
-  },
-  "button-primary-foreground": {
-    "$type": "color",
-    "$value": "{background}",
-    "$extensions": {
-      "com.figma.variableId": "VariableID:10861:16535",
-      "com.figma.scopes": [
-        "ALL_SCOPES"
-      ],
-      "com.figma.isOverride": true
-    }
-  },
-  "button-primary-disabled-foreground": {
-    "$type": "color",
-    "$value": "{muted-foreground}",
-    "$extensions": {
-      "com.figma.variableId": "VariableID:10861:16536",
-      "com.figma.scopes": [
-        "ALL_SCOPES"
-      ],
-      "com.figma.isOverride": true
-    }
-  },
-  "button-primary-disabled-background": {
-    "$type": "color",
-    "$value": "{muted-background}",
-    "$extensions": {
-      "com.figma.variableId": "VariableID:10861:16537",
-      "com.figma.scopes": [
-        "ALL_SCOPES"
-      ],
-      "com.figma.isOverride": true
-    }
-  },
-  "button-primary-hover-background": {
-    "$type": "color",
-    "$value": "{foreground-subtle}",
-    "$extensions": {
-      "com.figma.variableId": "VariableID:10861:16538",
-      "com.figma.scopes": [
-        "ALL_SCOPES"
-      ],
-      "com.figma.isOverride": true
-    }
-  },
-  "button-primary-active-background": {
-    "$type": "color",
-    "$value": "{foreground-emphasis}",
-    "$extensions": {
-      "com.figma.variableId": "VariableID:10861:16541",
-      "com.figma.scopes": [
-        "ALL_SCOPES"
-      ],
-      "com.figma.isOverride": true
-    }
-  },
-  "button-secondary-background": {
-    "$type": "color",
-    "$value": "{background}",
-    "$description": "Use this to emphasis main ui components",
-    "$extensions": {
-      "com.figma.variableId": "VariableID:10861:16592",
-      "com.figma.scopes": [
-        "ALL_SCOPES"
-      ],
-      "com.figma.isOverride": true
-    }
-  },
-  "button-secondary-foreground": {
-    "$type": "color",
-    "$value": "{foreground}",
-    "$extensions": {
-      "com.figma.variableId": "VariableID:10861:16593",
-      "com.figma.scopes": [
-        "ALL_SCOPES"
-      ],
-      "com.figma.isOverride": true
-    }
-  },
-  "button-secondary-disabled-foreground": {
-    "$type": "color",
-    "$value": "{muted-foreground}",
-    "$extensions": {
-      "com.figma.variableId": "VariableID:10861:16594",
-      "com.figma.scopes": [
-        "ALL_SCOPES"
-      ],
-      "com.figma.isOverride": true
-    }
-  },
-  "button-secondary-disabled-background": {
-    "$type": "color",
-    "$value": "{muted-background}",
-    "$extensions": {
-      "com.figma.variableId": "VariableID:10861:16595",
-      "com.figma.scopes": [
-        "ALL_SCOPES"
-      ],
-      "com.figma.isOverride": true
-    }
-  },
-  "button-secondary-hover-background": {
-    "$type": "color",
-    "$value": "{accent-1}",
-    "$extensions": {
-      "com.figma.variableId": "VariableID:10861:16596",
-      "com.figma.scopes": [
-        "ALL_SCOPES"
-      ],
-      "com.figma.isOverride": true
-    }
-  },
-  "button-secondary-active-background": {
-    "$type": "color",
-    "$value": "{accent-2}",
-    "$extensions": {
-      "com.figma.variableId": "VariableID:10861:16597",
-      "com.figma.scopes": [
-        "ALL_SCOPES"
-      ],
-      "com.figma.isOverride": true
-    }
-  },
-  "button-secondary-border": {
-    "$type": "color",
-    "$value": "{foreground}",
-    "$extensions": {
-      "com.figma.variableId": "VariableID:10861:16598",
-      "com.figma.scopes": [
-        "ALL_SCOPES"
-      ],
-      "com.figma.codeSyntax": {
-        "WEB": "button-secondary-border"
-      },
-      "com.figma.isOverride": true
+  "Buttons": {
+    "button-primary-background": {
+      "$type": "color",
+      "$value": "{foreground}",
+      "$description": "Used for the default fill of primary action buttons.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:10861:16534",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.isOverride": true
+      }
+    },
+    "button-primary-foreground": {
+      "$type": "color",
+      "$value": "{background}",
+      "$description": "Used for text and icons on primary action buttons.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:10861:16535",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.isOverride": true
+      }
+    },
+    "button-primary-disabled-foreground": {
+      "$type": "color",
+      "$value": "{muted-foreground}",
+      "$description": "Used for text and icons on disabled primary action buttons.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:10861:16536",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.isOverride": true
+      }
+    },
+    "button-primary-disabled-background": {
+      "$type": "color",
+      "$value": "{muted-background}",
+      "$description": "Used for the fill of disabled primary action buttons.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:10861:16537",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.isOverride": true
+      }
+    },
+    "button-primary-hover-background": {
+      "$type": "color",
+      "$value": "{foreground-subtle}",
+      "$description": "Used for the hover state fill of primary action buttons.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:10861:16538",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.isOverride": true
+      }
+    },
+    "button-primary-active-background": {
+      "$type": "color",
+      "$value": "{foreground-emphasis}",
+      "$description": "Used for the active and pressed state fill of primary action buttons.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:10861:16541",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.isOverride": true
+      }
+    },
+    "button-secondary-background": {
+      "$type": "color",
+      "$value": "{background}",
+      "$description": "Used for the default fill of secondary action buttons.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:10861:16592",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.isOverride": true
+      }
+    },
+    "button-secondary-foreground": {
+      "$type": "color",
+      "$value": "{foreground}",
+      "$description": "Used for text and icons on secondary action buttons.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:10861:16593",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.isOverride": true
+      }
+    },
+    "button-secondary-disabled-foreground": {
+      "$type": "color",
+      "$value": "{muted-foreground}",
+      "$description": "Used for text and icons on disabled secondary action buttons.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:10861:16594",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.isOverride": true
+      }
+    },
+    "button-secondary-disabled-background": {
+      "$type": "color",
+      "$value": "{muted-background}",
+      "$description": "Used for the fill of disabled secondary action buttons.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:10861:16595",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.isOverride": true
+      }
+    },
+    "button-secondary-hover-background": {
+      "$type": "color",
+      "$value": "{accent-1}",
+      "$description": "Used for the hover state fill of secondary action buttons.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:10861:16596",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.isOverride": true
+      }
+    },
+    "button-secondary-active-background": {
+      "$type": "color",
+      "$value": "{accent-2}",
+      "$description": "Used for the active and pressed state fill of secondary action buttons.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:10861:16597",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.isOverride": true
+      }
+    },
+    "button-secondary-border": {
+      "$type": "color",
+      "$value": "{foreground}",
+      "$description": "Used for the outline stroke of secondary action buttons.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:10861:16598",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.codeSyntax": {
+          "WEB": "button-secondary-border"
+        },
+        "com.figma.isOverride": true
+      }
     }
   },
   "$extensions": {
-    "com.figma.modeName": "Mode 1"
+    "com.figma.modeName": "Light Mode"
   }
 }

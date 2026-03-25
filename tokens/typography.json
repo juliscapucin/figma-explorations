@@ -18,7 +18,7 @@
     "display-large": {
       "$type": "number",
       "$value": 96,
-      "$description": "Font Size variable for 96",
+      "$description": "Used for the most prominent hero text and splash headlines.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:224",
         "com.figma.scopes": [
@@ -30,7 +30,7 @@
     "display-medium": {
       "$type": "number",
       "$value": 72,
-      "$description": "Font Size variable for 72",
+      "$description": "Used for high-emphasis display text in large marketing or landing sections.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:225",
         "com.figma.scopes": [
@@ -42,7 +42,7 @@
     "display-small": {
       "$type": "number",
       "$value": 48,
-      "$description": "Font Size variable for 48",
+      "$description": "Used for prominent display text when vertical space is more constrained.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:226",
         "com.figma.scopes": [
@@ -54,7 +54,7 @@
     "headline-large": {
       "$type": "number",
       "$value": 64,
-      "$description": "Font Size variable for 64",
+      "$description": "Used for primary page headlines and key section headers.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:227",
         "com.figma.scopes": [
@@ -66,7 +66,7 @@
     "headline-medium": {
       "$type": "number",
       "$value": 45,
-      "$description": "Font Size variable for 45",
+      "$description": "Used for major section titles with strong hierarchy below display styles.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:228",
         "com.figma.scopes": [
@@ -78,7 +78,7 @@
     "headline-small": {
       "$type": "number",
       "$value": 40,
-      "$description": "Font Size variable for 40",
+      "$description": "Used for section headings that still require clear emphasis.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:229",
         "com.figma.scopes": [
@@ -90,6 +90,7 @@
     "title-large": {
       "$type": "number",
       "$value": 40,
+      "$description": "Used for high-priority titles in dense UI layouts and content group headers.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:263",
         "com.figma.scopes": [
@@ -101,7 +102,7 @@
     "title-medium": {
       "$type": "number",
       "$value": 32,
-      "$description": "Font Size variable for 32",
+      "$description": "Used for medium-emphasis titles, card headings, and grouped content labels.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:230",
         "com.figma.scopes": [
@@ -113,7 +114,7 @@
     "title-small": {
       "$type": "number",
       "$value": 28,
-      "$description": "Font Size variable for 28",
+      "$description": "Used for compact titles and tertiary heading levels in component-level UI.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:231",
         "com.figma.scopes": [
@@ -125,7 +126,7 @@
     "subline-large": {
       "$type": "number",
       "$value": 25,
-      "$description": "Font Size variable for 25",
+      "$description": "Used for supporting lead text between title and body scales.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:232",
         "com.figma.scopes": [
@@ -137,7 +138,7 @@
     "subline-medium": {
       "$type": "number",
       "$value": 22,
-      "$description": "Font Size variable for 22",
+      "$description": "Used for secondary supporting text below headings and titles.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:233",
         "com.figma.scopes": [
@@ -149,7 +150,7 @@
     "subline-small": {
       "$type": "number",
       "$value": 20,
-      "$description": "Font Size variable for 20",
+      "$description": "Used for compact supporting lines and short descriptive copy.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:234",
         "com.figma.scopes": [
@@ -161,7 +162,7 @@
     "body-large": {
       "$type": "number",
       "$value": 18,
-      "$description": "Font Size variable for 18",
+      "$description": "Used for long-form reading content, paragraphs, and detailed descriptions.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:235",
         "com.figma.scopes": [
@@ -173,7 +174,7 @@
     "body-medium": {
       "$type": "number",
       "$value": 16,
-      "$description": "Font Size variable for 16",
+      "$description": "Used for default body copy in most UI text blocks.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:236",
         "com.figma.scopes": [
@@ -185,7 +186,7 @@
     "body-small": {
       "$type": "number",
       "$value": 14,
-      "$description": "Font Size variable for 14",
+      "$description": "Used for dense supporting copy, captions, and helper text.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:237",
         "com.figma.scopes": [
@@ -197,7 +198,7 @@
     "label-large": {
       "$type": "number",
       "$value": 20,
-      "$description": "Font Size variable for 12",
+      "$description": "Used for high-prominence labels such as buttons and key control text.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10841:238",
         "com.figma.scopes": [
@@ -209,6 +210,7 @@
     "label-medium": {
       "$type": "number",
       "$value": 18,
+      "$description": "Used for standard component labels, form controls, and metadata tags.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10859:10663",
         "com.figma.scopes": [
@@ -220,6 +222,7 @@
     "label-small": {
       "$type": "number",
       "$value": 16,
+      "$description": "Used for compact labels, badges, and tightly spaced UI controls.",
       "$extensions": {
         "com.figma.variableId": "VariableID:10859:10664",
         "com.figma.scopes": [

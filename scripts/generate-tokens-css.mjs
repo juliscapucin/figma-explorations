@@ -7,6 +7,8 @@ const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, "..");
 const tokensDir = path.join(projectRoot, "tokens");
 const outputFile = path.join(projectRoot, "src/styles/tokens.css");
+const isDarkModeFile = (fileName) => /dark-mode/i.test(fileName);
+const isLightModeFile = (fileName) => /light-mode/i.test(fileName);
 
 const isObject = (value) =>
   value !== null && typeof value === "object" && !Array.isArray(value);
@@ -76,6 +78,22 @@ const flattenTokens = (node, currentPath = []) => {
   return tokens;
 };
 
+const dedupeTokens = (tokens) =>
+  Array.from(new Map(tokens.map((token) => [token.name, token])).values());
+
+const loadTokensFromFiles = async (fileNames) => {
+  const allTokens = [];
+
+  for (const tokenFile of fileNames) {
+    const tokenFilePath = path.join(tokensDir, tokenFile);
+    const raw = await fs.readFile(tokenFilePath, "utf8");
+    const json = JSON.parse(raw);
+    allTokens.push(...flattenTokens(json));
+  }
+
+  return dedupeTokens(allTokens);
+};
+
 const main = async () => {
   const entries = await fs.readdir(tokensDir, { withFileTypes: true });
   const tokenFiles = entries
@@ -83,32 +101,45 @@ const main = async () => {
     .map((entry) => entry.name)
     .sort((a, b) => a.localeCompare(b));
 
-  const allTokens = [];
-
-  for (const tokenFile of tokenFiles) {
-    const tokenFilePath = path.join(tokensDir, tokenFile);
-    const raw = await fs.readFile(tokenFilePath, "utf8");
-    const json = JSON.parse(raw);
-    allTokens.push(...flattenTokens(json));
-  }
-
-  const uniqueTokens = Array.from(
-    new Map(allTokens.map((token) => [token.name, token])).values(),
+  const darkModeFiles = tokenFiles.filter(isDarkModeFile);
+  const lightModeFiles = tokenFiles.filter(isLightModeFile);
+  const neutralFiles = tokenFiles.filter(
+    (fileName) => !isDarkModeFile(fileName) && !isLightModeFile(fileName),
   );
+
+  // Neutral files (e.g. typography) are merged first, then light mode colors
+  // so light mode values become the default :root values when present.
+  const baseTokens = await loadTokensFromFiles([
+    ...neutralFiles,
+    ...lightModeFiles,
+  ]);
+  const darkModeTokens = await loadTokensFromFiles(darkModeFiles);
 
   const cssLines = [
     "/* Auto-generated from tokens/*.json. Do not edit directly. */",
     ":root {",
-    ...uniqueTokens.map((token) => `  --${token.name}: ${token.value};`),
+    ...baseTokens.map((token) => `  --${token.name}: ${token.value};`),
     "}",
-    "",
   ];
+
+  if (darkModeTokens.length > 0) {
+    cssLines.push(
+      "",
+      "@media (prefers-color-scheme: dark) {",
+      "  :root {",
+      ...darkModeTokens.map((token) => `    --${token.name}: ${token.value};`),
+      "  }",
+      "}",
+    );
+  }
+
+  cssLines.push("");
 
   await fs.mkdir(path.dirname(outputFile), { recursive: true });
   await fs.writeFile(outputFile, cssLines.join("\n"), "utf8");
 
   console.log(
-    `Generated ${uniqueTokens.length} tokens from ${tokenFiles.length} files: ${outputFile}`,
+    `Generated ${baseTokens.length} base tokens and ${darkModeTokens.length} dark-mode overrides from ${tokenFiles.length} files: ${outputFile}`,
   );
 };
 
