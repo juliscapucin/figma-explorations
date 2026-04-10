@@ -10,15 +10,40 @@ const meta = {
   title: "UI/Button",
   component: Button,
   tags: ["autodocs"],
-  args: {
-    children: "Button",
+  argTypes: {
+    variant: {
+      control: { type: "select" },
+      options: variants,
+    },
+    size: {
+      control: { type: "select" },
+      options: sizes,
+    },
+    state: {
+      control: { type: "select" },
+      options: states,
+    },
+    children: {
+      control: "text",
+      description: "The text to display in the button plus icon if provided",
+    },
+    className: {
+      control: false,
+    },
   },
 } satisfies Meta<typeof Button>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Playground: Story = {};
+export const Playground: Story = {
+  args: {
+    variant: "primary",
+    size: "md",
+    state: "default",
+    children: "Button",
+  },
+};
 
 export const VariantSizeStateMatrix: Story = {
   render: () => (
@@ -49,7 +74,7 @@ export const VariantSizeStateMatrix: Story = {
                     {sizes.map((size) => (
                       <td key={`${variant}-${state}-${size}`} className="px-2 py-1">
                         <Button variant={variant} size={size} state={state}>
-                          Button
+                          Hello
                         </Button>
                       </td>
                     ))}
