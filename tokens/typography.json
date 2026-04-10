@@ -1,538 +1,885 @@
 {
-  "Font Family": {
-    "PP Frama": {
-      "$type": "string",
-      "$value": "PP Frama",
-      "$description": "Font Family variable for PP Frama",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:223",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.type": "string",
-        "com.figma.isOverride": true
-      }
+  "id": "VariableCollectionId:10841:222",
+  "name": "Typography",
+  "modes": { "10841:1": "Mode 1" },
+  "variableIds": [
+    "VariableID:10841:223",
+    "VariableID:12567:495",
+    "VariableID:12567:496",
+    "VariableID:12567:497",
+    "VariableID:12567:498",
+    "VariableID:12567:500",
+    "VariableID:12567:501",
+    "VariableID:12567:502",
+    "VariableID:12567:503",
+    "VariableID:12567:504",
+    "VariableID:12567:505",
+    "VariableID:12567:506",
+    "VariableID:12567:507",
+    "VariableID:12567:508",
+    "VariableID:12567:509",
+    "VariableID:12567:510",
+    "VariableID:12567:511",
+    "VariableID:12567:512",
+    "VariableID:12567:513",
+    "VariableID:12567:514",
+    "VariableID:12567:515",
+    "VariableID:12567:516",
+    "VariableID:12567:517",
+    "VariableID:12567:518",
+    "VariableID:12567:519",
+    "VariableID:12567:520",
+    "VariableID:12567:521",
+    "VariableID:12567:522",
+    "VariableID:12567:523",
+    "VariableID:12567:524",
+    "VariableID:12567:525",
+    "VariableID:12567:526",
+    "VariableID:12567:527",
+    "VariableID:12567:528",
+    "VariableID:12567:529",
+    "VariableID:12567:530",
+    "VariableID:12567:531",
+    "VariableID:12567:532",
+    "VariableID:12567:533",
+    "VariableID:12567:534",
+    "VariableID:12567:535",
+    "VariableID:12567:536",
+    "VariableID:12567:537",
+    "VariableID:12567:538",
+    "VariableID:12567:539",
+    "VariableID:12567:540",
+    "VariableID:12567:541",
+    "VariableID:12567:542",
+    "VariableID:12567:543",
+    "VariableID:12567:544",
+    "VariableID:12567:545",
+    "VariableID:12567:546",
+    "VariableID:12567:547",
+    "VariableID:12567:548",
+    "VariableID:12567:549",
+    "VariableID:12567:550",
+    "VariableID:12567:551",
+    "VariableID:12567:552",
+    "VariableID:12567:553",
+    "VariableID:12567:554",
+    "VariableID:12567:555",
+    "VariableID:12567:556",
+    "VariableID:12567:557",
+    "VariableID:12567:558",
+    "VariableID:12567:559",
+    "VariableID:12567:560",
+    "VariableID:12567:561",
+    "VariableID:12567:562",
+    "VariableID:12567:563",
+    "VariableID:12567:564",
+    "VariableID:12567:565",
+    "VariableID:12567:566",
+    "VariableID:12567:567"
+  ],
+  "variables": [
+    {
+      "id": "VariableID:10841:223",
+      "name": "Font Family/PP Frama",
+      "description": "Font Family variable for PP Frama",
+      "type": "STRING",
+      "valuesByMode": { "10841:1": "PP Frama" },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": "PP Frama", "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:495",
+      "name": "Display/Large/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 96 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 96, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:496",
+      "name": "Display/Large/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 80 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 80, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:497",
+      "name": "Display/Large/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:498",
+      "name": "Display/Large/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 900 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 900, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:500",
+      "name": "Display/Medium/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 72 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 72, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:501",
+      "name": "Display/Medium/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 72 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 72, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:502",
+      "name": "Display/Medium/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:503",
+      "name": "Display/Medium/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 900 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 900, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:504",
+      "name": "Display/Small/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 48 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 48, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:505",
+      "name": "Display/Small/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 48 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 48, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:506",
+      "name": "Display/Small/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:507",
+      "name": "Display/Small/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 900 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 900, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:508",
+      "name": "Headline/Large/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 64 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 64, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:509",
+      "name": "Headline/Large/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 80 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 80, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:510",
+      "name": "Headline/Large/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:511",
+      "name": "Headline/Large/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 900 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 900, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:512",
+      "name": "Headline/Medium/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 45 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 45, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:513",
+      "name": "Headline/Medium/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 72 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 72, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:514",
+      "name": "Headline/Medium/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:515",
+      "name": "Headline/Medium/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 900 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 900, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:516",
+      "name": "Headline/Small/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 40 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 40, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:517",
+      "name": "Headline/Small/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 40 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 40, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:518",
+      "name": "Headline/Small/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:519",
+      "name": "Headline/Small/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 900 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 900, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:520",
+      "name": "Title/Large/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 40 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 40, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:521",
+      "name": "Title/Large/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 80 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 80, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:522",
+      "name": "Title/Large/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:523",
+      "name": "Title/Large/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 900 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 900, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:524",
+      "name": "Title/Medium/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 32 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 32, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:525",
+      "name": "Title/Medium/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 72 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 72, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:526",
+      "name": "Title/Medium/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:527",
+      "name": "Title/Medium/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 900 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 900, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:528",
+      "name": "Title/Small/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 28 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 28, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:529",
+      "name": "Title/Small/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 28 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 28, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:530",
+      "name": "Title/Small/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:531",
+      "name": "Title/Small/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 900 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 900, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:532",
+      "name": "Subline/Large/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 25 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 25, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:533",
+      "name": "Subline/Large/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 80 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 80, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:534",
+      "name": "Subline/Large/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:535",
+      "name": "Subline/Large/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 900 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 900, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:536",
+      "name": "Subline/Medium/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 22 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 22, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:537",
+      "name": "Subline/Medium/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 72 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 72, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:538",
+      "name": "Subline/Medium/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:539",
+      "name": "Subline/Medium/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 900 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 900, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:540",
+      "name": "Subline/Small/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 20 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 20, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:541",
+      "name": "Subline/Small/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 20 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 20, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:542",
+      "name": "Subline/Small/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:543",
+      "name": "Subline/Small/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 400 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 400, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:544",
+      "name": "Body/Large/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 18 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 18, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:545",
+      "name": "Body/Large/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 18 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 18, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:546",
+      "name": "Body/Large/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:547",
+      "name": "Body/Large/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 900 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 900, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:548",
+      "name": "Body/Medium/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 16 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 16, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:549",
+      "name": "Body/Medium/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 16 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 16, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:550",
+      "name": "Body/Medium/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:551",
+      "name": "Body/Medium/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 400 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 400, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:552",
+      "name": "Body/Small/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 148 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 148, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:553",
+      "name": "Body/Small/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 14 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 14, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:554",
+      "name": "Body/Small/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:555",
+      "name": "Body/Small/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 400 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 400, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:556",
+      "name": "Label/Large/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 20 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 20, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:557",
+      "name": "Label/Large/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 20 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 20, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:558",
+      "name": "Label/Large/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:559",
+      "name": "Label/Large/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 400 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 400, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:560",
+      "name": "Label/Medium/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 18 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 18, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:561",
+      "name": "Label/Medium/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 18 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 18, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:562",
+      "name": "Label/Medium/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:563",
+      "name": "Label/Medium/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 400 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 400, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:564",
+      "name": "Label/Small/size",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 16 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 16, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:565",
+      "name": "Label/Small/line-height",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 16 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 16, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:566",
+      "name": "Label/Small/letter-spacing",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 0 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 0, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12567:567",
+      "name": "Label/Small/weight",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "10841:1": 400 },
+      "resolvedValuesByMode": { "10841:1": { "resolvedValue": 400, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
     }
-  },
-  "Typescale": {
-    "display-large": {
-      "$type": "number",
-      "$value": 96,
-      "$description": "Used for the most prominent hero text and splash headlines.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:224",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "display-medium": {
-      "$type": "number",
-      "$value": 72,
-      "$description": "Used for high-emphasis display text in large marketing or landing sections.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:225",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "display-small": {
-      "$type": "number",
-      "$value": 48,
-      "$description": "Used for prominent display text when vertical space is more constrained.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:226",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "headline-large": {
-      "$type": "number",
-      "$value": 64,
-      "$description": "Used for primary page headlines and key section headers.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:227",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "headline-medium": {
-      "$type": "number",
-      "$value": 45,
-      "$description": "Used for major section titles with strong hierarchy below display styles.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:228",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "headline-small": {
-      "$type": "number",
-      "$value": 40,
-      "$description": "Used for section headings that still require clear emphasis.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:229",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "title-large": {
-      "$type": "number",
-      "$value": 40,
-      "$description": "Used for high-priority titles in dense UI layouts and content group headers.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:263",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "title-medium": {
-      "$type": "number",
-      "$value": 32,
-      "$description": "Used for medium-emphasis titles, card headings, and grouped content labels.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:230",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "title-small": {
-      "$type": "number",
-      "$value": 28,
-      "$description": "Used for compact titles and tertiary heading levels in component-level UI.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:231",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "subline-large": {
-      "$type": "number",
-      "$value": 25,
-      "$description": "Used for supporting lead text between title and body scales.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:232",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "subline-medium": {
-      "$type": "number",
-      "$value": 22,
-      "$description": "Used for secondary supporting text below headings and titles.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:233",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "subline-small": {
-      "$type": "number",
-      "$value": 20,
-      "$description": "Used for compact supporting lines and short descriptive copy.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:234",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "body-large": {
-      "$type": "number",
-      "$value": 18,
-      "$description": "Used for long-form reading content, paragraphs, and detailed descriptions.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:235",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "body-medium": {
-      "$type": "number",
-      "$value": 16,
-      "$description": "Used for default body copy in most UI text blocks.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:236",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "body-small": {
-      "$type": "number",
-      "$value": 14,
-      "$description": "Used for dense supporting copy, captions, and helper text.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:237",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "label-large": {
-      "$type": "number",
-      "$value": 20,
-      "$description": "Used for high-prominence labels such as buttons and key control text.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:238",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "label-medium": {
-      "$type": "number",
-      "$value": 18,
-      "$description": "Used for standard component labels, form controls, and metadata tags.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10859:10663",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "label-small": {
-      "$type": "number",
-      "$value": 16,
-      "$description": "Used for compact labels, badges, and tightly spaced UI controls.",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10859:10664",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    }
-  },
-  "Font Weight": {
-    "black": {
-      "$type": "number",
-      "$value": 900,
-      "$description": "Font Weight variable for black",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:239",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "regular": {
-      "$type": "number",
-      "$value": 400,
-      "$description": "Font Weight variable for regular",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:240",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    }
-  },
-  "Letter Spacing": {
-    "0": {
-      "$type": "number",
-      "$value": 0,
-      "$description": "Letter Spacing variable for 0",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:241",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "3": {
-      "$type": "number",
-      "$value": 3,
-      "$description": "Letter Spacing variable for 3",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:243",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "5": {
-      "$type": "number",
-      "$value": 5,
-      "$description": "Letter Spacing variable for 5",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:242",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "10": {
-      "$type": "number",
-      "$value": 10,
-      "$description": "Letter Spacing variable for 10",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:244",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    }
-  },
-  "Line Height": {
-    "20": {
-      "$type": "number",
-      "$value": 20,
-      "$description": "Line Height variable for 20",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:255",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "25": {
-      "$type": "number",
-      "$value": 25,
-      "$description": "Line Height variable for 25",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:254",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "29": {
-      "$type": "number",
-      "$value": 29,
-      "$description": "Line Height variable for 29",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:256",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "30": {
-      "$type": "number",
-      "$value": 30,
-      "$description": "Line Height variable for 30",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:257",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "32": {
-      "$type": "number",
-      "$value": 32,
-      "$description": "Line Height variable for 32",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:253",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "40": {
-      "$type": "number",
-      "$value": 40,
-      "$description": "Line Height variable for 40",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:250",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "45": {
-      "$type": "number",
-      "$value": 45,
-      "$description": "Line Height variable for 45",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:249",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "51": {
-      "$type": "number",
-      "$value": 51,
-      "$description": "Line Height variable for 51",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:252",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "52": {
-      "$type": "number",
-      "$value": 52,
-      "$description": "Line Height variable for 52",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:251",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "56": {
-      "$type": "number",
-      "$value": 56,
-      "$description": "Line Height variable for 56",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:248",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "72": {
-      "$type": "number",
-      "$value": 72,
-      "$description": "Line Height variable for 72",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:247",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "80": {
-      "$type": "number",
-      "$value": 80,
-      "$description": "Line Height variable for 80",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:245",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "81": {
-      "$type": "number",
-      "$value": 81,
-      "$description": "Line Height variable for 81",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:246",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    }
-  },
-  "Paragraph Spacing": {
-    "0": {
-      "$type": "number",
-      "$value": 0,
-      "$description": "Paragraph Spacing variable for 0",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:258",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "16": {
-      "$type": "number",
-      "$value": 16,
-      "$description": "Paragraph Spacing variable for 16",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:260",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    },
-    "24": {
-      "$type": "number",
-      "$value": 24,
-      "$description": "Paragraph Spacing variable for 24",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:259",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    }
-  },
-  "Paragraph Indent": {
-    "0": {
-      "$type": "number",
-      "$value": 0,
-      "$description": "Paragraph Indent variable for 0",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:261",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    }
-  },
-  "List Spacing": {
-    "0": {
-      "$type": "number",
-      "$value": 0,
-      "$description": "List Spacing variable for 0",
-      "$extensions": {
-        "com.figma.variableId": "VariableID:10841:262",
-        "com.figma.scopes": [
-          "ALL_SCOPES"
-        ],
-        "com.figma.isOverride": true
-      }
-    }
-  },
-  "$extensions": {
-    "com.figma.modeName": "Mode 1"
-  }
+  ]
 }

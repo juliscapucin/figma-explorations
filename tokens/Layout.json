@@ -1,0 +1,30 @@
+{
+  "id": "VariableCollectionId:12558:385",
+  "name": "Layout",
+  "modes": { "12558:5": "Mode 1" },
+  "variableIds": ["VariableID:12558:387", "VariableID:12558:388"],
+  "variables": [
+    {
+      "id": "VariableID:12558:387",
+      "name": "content",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "12558:5": 1000 },
+      "resolvedValuesByMode": { "12558:5": { "resolvedValue": 1000, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12558:388",
+      "name": "wide",
+      "description": "",
+      "type": "FLOAT",
+      "valuesByMode": { "12558:5": 2000 },
+      "resolvedValuesByMode": { "12558:5": { "resolvedValue": 2000, "alias": null } },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    }
+  ]
+}

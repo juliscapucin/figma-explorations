@@ -1,26 +1,54 @@
 ---
-description: 
-globs: app/**/*.tsx, app/**/*.ts, app/**/*.css, components/**/*.tsx, components/**/*.ts, src/**/*.tsx, src/**/*.ts, src/**/*.css
+description: Core design system conventions for this project. Enforces component usage, token naming, layout patterns, and code style.
+globs: ["app/**/*.tsx", "app/**/*.ts", "app/**/*.css", "components/**/*.tsx", "components/**/*.ts", "src/**/*.tsx", "src/**/*.ts", "src/**/*.css"]
 alwaysApply: false
 ---
 
 # Design System Rules
 
 ## Components
-- Use components from @/components/ui for all UI elements
-- Never create custom buttons, inputs, or modals - use the design system
-- Import icons from @/components/icons
+
+- IMPORTANT: Use components from `components/ui/` for all UI elements
+- Never recreate a Button, Input, Modal, or other primitive — use the design system component
+- `components/blocks/` sections must only compose `components/ui/` primitives
+- New UI components go in `components/ui/`
+- New page sections go in `components/blocks/`
 
 ## Tokens
-- Use CSS variables for colors: var(--color-primary), var(--color-secondary)
-- Use spacing scale from TailwindCSS: p-8, m-16, gap-4
-- Typography: use text-display-large, text-title-medium, text-body-medium classes
 
-## Patterns
-- Cards use 16px padding and 8px border radius
-- Forms use 24px vertical spacing between fields
-- Modals are max 480px wide on desktop
+- All tokens are CSS custom properties defined in `src/styles/tokens.css`
+- IMPORTANT: Never use hardcoded colors (`#000`, `rgb(...)`, Tailwind palette colors like `bg-zinc-900`)
+- Use semantic token classes via Tailwind: `bg-background`, `text-foreground`, `text-foreground-subtle`, `bg-muted-background`, `text-muted-foreground`, `ring-ring`
+- For button states use the dedicated button token variables: `var(--buttons-button-primary-background)`, etc.
+- Typography: use semantic scale classes only — `display-large`, `headline-large`, `title-medium`, `body-large`, `label-medium`, etc. (never raw `text-3xl` or similar)
+- Spacing: use Tailwind spacing scale only (`p-8`, `gap-4`, `py-24`)
 
-## Files to reference
-- src/components/ui/Button.tsx (canonical button implementation)
-- src/styles/tokens.css (all design tokens)
+## Layout
+
+- All sections: `<section className="py-24"><div className="max-w-[--content] mx-auto px-6">...</div></section>`
+- Default section spacing: `py-24` · Dense: `py-16`
+- Default gap: `gap-8` · Large sections: `gap-12` or `gap-16`
+
+## Styling Constraints
+
+- Tailwind utility classes only — no inline styles, no CSS Modules
+- IMPORTANT: No arbitrary Tailwind values (`px-[18px]`, `text-[#333]`)
+- Border radius: `rounded-lg` or `rounded-3xl` only
+- Borders: `border` or `border-2` only
+- Use `cn()` from `src/lib/utils.ts` for all class merging
+- All components must accept a `className` prop
+
+## Code Conventions
+
+- TypeScript, functional components, named exports
+- React 19: pass `ref` as a prop directly (not via `React.forwardRef`)
+- Use `@base-ui/react` primitives for accessible interactive components
+- Use `cva()` only for multi-variant components (Button, Badge, Alert)
+
+## Files to Reference
+
+- `src/styles/tokens.css` — all CSS custom property tokens (auto-generated, do not edit)
+- `src/lib/utils.ts` — `cn()` helper
+- `components/ui/Button.tsx` — canonical multi-variant component pattern
+- `tokens/*.json` — Figma token source files
+- `scripts/generate-tokens-css.mjs` — token build script (`pnpm tokens:build`)

@@ -1,0 +1,1472 @@
+{
+  "id": "VariableCollectionId:10841:210",
+  "name": "Colors",
+  "modes": { "10841:0": "Light Mode", "12544:0": "Dark Mode" },
+  "variableIds": [
+    "VariableID:10841:211",
+    "VariableID:10866:16635",
+    "VariableID:10841:212",
+    "VariableID:10861:16540",
+    "VariableID:10861:16539",
+    "VariableID:10841:213",
+    "VariableID:10841:214",
+    "VariableID:10866:16627",
+    "VariableID:10866:16626",
+    "VariableID:10866:16628",
+    "VariableID:10866:16629",
+    "VariableID:10866:16630",
+    "VariableID:10841:215",
+    "VariableID:10841:216",
+    "VariableID:10841:220",
+    "VariableID:10841:217",
+    "VariableID:10841:218",
+    "VariableID:10841:221",
+    "VariableID:10841:219",
+    "VariableID:10861:16534",
+    "VariableID:10861:16535",
+    "VariableID:10861:16536",
+    "VariableID:10861:16537",
+    "VariableID:10861:16538",
+    "VariableID:10861:16541",
+    "VariableID:10861:16592",
+    "VariableID:10861:16593",
+    "VariableID:10861:16594",
+    "VariableID:10861:16595",
+    "VariableID:10861:16596",
+    "VariableID:10861:16597",
+    "VariableID:10861:16598",
+    "VariableID:10861:16699",
+    "VariableID:10861:16700",
+    "VariableID:10861:16701",
+    "VariableID:10861:16702",
+    "VariableID:10861:16703",
+    "VariableID:10861:16704",
+    "VariableID:10861:16705"
+  ],
+  "variables": [
+    {
+      "id": "VariableID:10841:211",
+      "name": "background",
+      "description": "The default background color for the application.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": {
+          "r": 0.9604679942131042,
+          "g": 0.9514479637145996,
+          "b": 0.9188371300697327,
+          "a": 1
+        },
+        "12544:0": {
+          "r": 0.1882352977991104,
+          "g": 0.14901961386203766,
+          "b": 0.20392157137393951,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.9604679942131042,
+            "g": 0.9514479637145996,
+            "b": 0.9188371300697327,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.1882352977991104,
+            "g": 0.14901961386203766,
+            "b": 0.20392157137393951,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10841:212",
+      "name": "foreground",
+      "description": "The default color for elements or text that appears on top of the background.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": {
+          "r": 0.18998874723911285,
+          "g": 0.14750531315803528,
+          "b": 0.2029184252023697,
+          "a": 1
+        },
+        "12544:0": {
+          "r": 0.9607843160629272,
+          "g": 0.9529411792755127,
+          "b": 0.9176470637321472,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.18998874723911285,
+            "g": 0.14750531315803528,
+            "b": 0.2029184252023697,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.9607843160629272,
+            "g": 0.9529411792755127,
+            "b": 0.9176470637321472,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10841:213",
+      "name": "ring",
+      "description": "Used for focus states and other interactive elements.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": {
+          "r": 0.605875551700592,
+          "g": 0.5899840593338013,
+          "b": 0.6188777089118958,
+          "a": 1
+        },
+        "12544:0": {
+          "r": 0.605875551700592,
+          "g": 0.5899840593338013,
+          "b": 0.6188777089118958,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.605875551700592,
+            "g": 0.5899840593338013,
+            "b": 0.6188777089118958,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.605875551700592,
+            "g": 0.5899840593338013,
+            "b": 0.6188777089118958,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10841:214",
+      "name": "destructive",
+      "description": "Used for destructive actions, such as deleting data or canceling a task.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "r": 0.9058823585510254, "g": 0, "b": 0.04313725605607033, "a": 1 },
+        "12544:0": { "r": 0.9058823585510254, "g": 0, "b": 0.04313725605607033, "a": 1 }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": { "r": 0.9058823585510254, "g": 0, "b": 0.04313725605607033, "a": 1 },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": { "r": 0.9058823585510254, "g": 0, "b": 0.04313725605607033, "a": 1 },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10841:215",
+      "name": "muted-background",
+      "description": "Used for less prominent elements, such as disabled buttons or disabled text.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": {
+          "r": 0.8408730626106262,
+          "g": 0.8189864158630371,
+          "b": 0.8591120839118958,
+          "a": 1
+        },
+        "12544:0": {
+          "r": 0.4431372582912445,
+          "g": 0.41960784792900085,
+          "b": 0.4627451002597809,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.8408730626106262,
+            "g": 0.8189864158630371,
+            "b": 0.8591120839118958,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.4431372582912445,
+            "g": 0.41960784792900085,
+            "b": 0.4627451002597809,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10841:216",
+      "name": "muted-foreground",
+      "description": "The default color for text or elements that appear on top of muted-background colored elements.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": {
+          "r": 0.444364994764328,
+          "g": 0.41812533140182495,
+          "b": 0.4644306004047394,
+          "a": 1
+        },
+        "12544:0": {
+          "r": 0.8392156958580017,
+          "g": 0.8196078538894653,
+          "b": 0.8588235378265381,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.444364994764328,
+            "g": 0.41812533140182495,
+            "b": 0.4644306004047394,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.8392156958580017,
+            "g": 0.8196078538894653,
+            "b": 0.8588235378265381,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10841:217",
+      "name": "accent-2",
+      "description": "Used for background colors of design elements, such as cards or sections.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": {
+          "r": 0.9647498726844788,
+          "g": 0.561845600605011,
+          "b": 0.3751341998577118,
+          "a": 1
+        },
+        "12544:0": {
+          "r": 0.9647498726844788,
+          "g": 0.561845600605011,
+          "b": 0.3751341998577118,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.9647498726844788,
+            "g": 0.561845600605011,
+            "b": 0.3751341998577118,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.9647498726844788,
+            "g": 0.561845600605011,
+            "b": 0.3751341998577118,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10841:218",
+      "name": "accent-3",
+      "description": "Used for background colors of design elements, such as cards or sections.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": {
+          "r": 0.29799380898475647,
+          "g": 0.4950987994670868,
+          "b": 0.812180757522583,
+          "a": 1
+        },
+        "12544:0": {
+          "r": 0.29799380898475647,
+          "g": 0.4950987994670868,
+          "b": 0.812180757522583,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.29799380898475647,
+            "g": 0.4950987994670868,
+            "b": 0.812180757522583,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.29799380898475647,
+            "g": 0.4950987994670868,
+            "b": 0.812180757522583,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10841:219",
+      "name": "accent-5",
+      "description": "Used for background colors of design elements, such as cards or sections.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": {
+          "r": 0.8535531759262085,
+          "g": 0.8356844186782837,
+          "b": 0.789225697517395,
+          "a": 1
+        },
+        "12544:0": {
+          "r": 0.8535531759262085,
+          "g": 0.8356844186782837,
+          "b": 0.789225697517395,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.8535531759262085,
+            "g": 0.8356844186782837,
+            "b": 0.789225697517395,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.8535531759262085,
+            "g": 0.8356844186782837,
+            "b": 0.789225697517395,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10841:220",
+      "name": "accent-1",
+      "description": "The accent color used for highlights, links, and other interactive elements.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "r": 1, "g": 0.9931086897850037, "b": 0.5865196585655212, "a": 1 },
+        "12544:0": { "r": 1, "g": 0.9931086897850037, "b": 0.5865196585655212, "a": 1 }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": { "r": 1, "g": 0.9931086897850037, "b": 0.5865196585655212, "a": 1 },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": { "r": 1, "g": 0.9931086897850037, "b": 0.5865196585655212, "a": 1 },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10841:221",
+      "name": "accent-4",
+      "description": "Used for background colors of design elements, such as cards or sections.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "r": 0.155638188123703, "g": 0.699951171875, "b": 0.591088593006134, "a": 1 },
+        "12544:0": { "r": 0.155638188123703, "g": 0.699951171875, "b": 0.591088593006134, "a": 1 }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.155638188123703,
+            "g": 0.699951171875,
+            "b": 0.591088593006134,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.155638188123703,
+            "g": 0.699951171875,
+            "b": 0.591088593006134,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16534",
+      "name": "button/primary-background",
+      "description": "Use this to emphasis main ui components",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.18998874723911285,
+            "g": 0.14750531315803528,
+            "b": 0.2029184252023697,
+            "a": 1
+          },
+          "alias": "VariableID:10841:212",
+          "aliasName": "foreground"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.18998874723911285,
+            "g": 0.14750531315803528,
+            "b": 0.2029184252023697,
+            "a": 1
+          },
+          "alias": "VariableID:10841:212",
+          "aliasName": "foreground"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16535",
+      "name": "button/primary-foreground",
+      "description": "Used for text colors of primary buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:211" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:211" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.9604679942131042,
+            "g": 0.9514479637145996,
+            "b": 0.9188371300697327,
+            "a": 1
+          },
+          "alias": "VariableID:10841:211",
+          "aliasName": "background"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.9604679942131042,
+            "g": 0.9514479637145996,
+            "b": 0.9188371300697327,
+            "a": 1
+          },
+          "alias": "VariableID:10841:211",
+          "aliasName": "background"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16536",
+      "name": "button/primary-disabled-foreground",
+      "description": "Used for text colors of disabled primary buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:216" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:216" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.444364994764328,
+            "g": 0.41812533140182495,
+            "b": 0.4644306004047394,
+            "a": 1
+          },
+          "alias": "VariableID:10841:216",
+          "aliasName": "muted-foreground"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.444364994764328,
+            "g": 0.41812533140182495,
+            "b": 0.4644306004047394,
+            "a": 1
+          },
+          "alias": "VariableID:10841:216",
+          "aliasName": "muted-foreground"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16537",
+      "name": "button/primary-disabled-background",
+      "description": "Used for background colors of disabled primary buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.8408730626106262,
+            "g": 0.8189864158630371,
+            "b": 0.8591120839118958,
+            "a": 1
+          },
+          "alias": "VariableID:10841:215",
+          "aliasName": "muted-background"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.8408730626106262,
+            "g": 0.8189864158630371,
+            "b": 0.8591120839118958,
+            "a": 1
+          },
+          "alias": "VariableID:10841:215",
+          "aliasName": "muted-background"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16538",
+      "name": "button/primary-hover-background",
+      "description": "Used for background colors of hover primary buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10861:16539" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10861:16539" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.3145965039730072,
+            "g": 0.2457098513841629,
+            "b": 0.3355619013309479,
+            "a": 1
+          },
+          "alias": "VariableID:10861:16539",
+          "aliasName": "foreground-subtle"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.3145965039730072,
+            "g": 0.2457098513841629,
+            "b": 0.3355619013309479,
+            "a": 1
+          },
+          "alias": "VariableID:10861:16539",
+          "aliasName": "foreground-subtle"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16539",
+      "name": "foreground-subtle",
+      "description": "Used for subtle text colors, such as placeholder text or secondary information.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": {
+          "r": 0.3145965039730072,
+          "g": 0.2457098513841629,
+          "b": 0.3355619013309479,
+          "a": 1
+        },
+        "12544:0": {
+          "r": 0.9843137264251709,
+          "g": 0.9803921580314636,
+          "b": 0.9686274528503418,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.3145965039730072,
+            "g": 0.2457098513841629,
+            "b": 0.3355619013309479,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.9843137264251709,
+            "g": 0.9803921580314636,
+            "b": 0.9686274528503418,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16540",
+      "name": "foreground-emphasis",
+      "description": "Used for emphasized text colors, such as headings or important information.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": {
+          "r": 0.12007885426282883,
+          "g": 0.09360435605049133,
+          "b": 0.1281362622976303,
+          "a": 1
+        },
+        "12544:0": { "r": 1, "g": 1, "b": 1, "a": 1 }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.12007885426282883,
+            "g": 0.09360435605049133,
+            "b": 0.1281362622976303,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": { "resolvedValue": { "r": 1, "g": 1, "b": 1, "a": 1 }, "alias": null }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16541",
+      "name": "button/primary-active-background",
+      "description": "Used for background colors of active primary buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10861:16540" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10861:16540" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.12007885426282883,
+            "g": 0.09360435605049133,
+            "b": 0.1281362622976303,
+            "a": 1
+          },
+          "alias": "VariableID:10861:16540",
+          "aliasName": "foreground-emphasis"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.12007885426282883,
+            "g": 0.09360435605049133,
+            "b": 0.1281362622976303,
+            "a": 1
+          },
+          "alias": "VariableID:10861:16540",
+          "aliasName": "foreground-emphasis"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16592",
+      "name": "button/secondary-background",
+      "description": "Used for background colors of secondary buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:211" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:211" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.9604679942131042,
+            "g": 0.9514479637145996,
+            "b": 0.9188371300697327,
+            "a": 1
+          },
+          "alias": "VariableID:10841:211",
+          "aliasName": "background"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.9604679942131042,
+            "g": 0.9514479637145996,
+            "b": 0.9188371300697327,
+            "a": 1
+          },
+          "alias": "VariableID:10841:211",
+          "aliasName": "background"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16593",
+      "name": "button/secondary-foreground",
+      "description": "Used for text or icon colors of secondary buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.18998874723911285,
+            "g": 0.14750531315803528,
+            "b": 0.2029184252023697,
+            "a": 1
+          },
+          "alias": "VariableID:10841:212",
+          "aliasName": "foreground"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.18998874723911285,
+            "g": 0.14750531315803528,
+            "b": 0.2029184252023697,
+            "a": 1
+          },
+          "alias": "VariableID:10841:212",
+          "aliasName": "foreground"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16594",
+      "name": "button/secondary-disabled-foreground",
+      "description": "Used for text or icon colors of disabled secondary buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:216" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:216" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.444364994764328,
+            "g": 0.41812533140182495,
+            "b": 0.4644306004047394,
+            "a": 1
+          },
+          "alias": "VariableID:10841:216",
+          "aliasName": "muted-foreground"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.444364994764328,
+            "g": 0.41812533140182495,
+            "b": 0.4644306004047394,
+            "a": 1
+          },
+          "alias": "VariableID:10841:216",
+          "aliasName": "muted-foreground"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16595",
+      "name": "button/secondary-disabled-background",
+      "description": "Used for background colors of disabled secondary buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.8408730626106262,
+            "g": 0.8189864158630371,
+            "b": 0.8591120839118958,
+            "a": 1
+          },
+          "alias": "VariableID:10841:215",
+          "aliasName": "muted-background"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.8408730626106262,
+            "g": 0.8189864158630371,
+            "b": 0.8591120839118958,
+            "a": 1
+          },
+          "alias": "VariableID:10841:215",
+          "aliasName": "muted-background"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16596",
+      "name": "button/secondary-hover-background",
+      "description": "Used for background colors of hover secondary buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:220" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:220" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": { "r": 1, "g": 0.9931086897850037, "b": 0.5865196585655212, "a": 1 },
+          "alias": "VariableID:10841:220",
+          "aliasName": "accent-1"
+        },
+        "12544:0": {
+          "resolvedValue": { "r": 1, "g": 0.9931086897850037, "b": 0.5865196585655212, "a": 1 },
+          "alias": "VariableID:10841:220",
+          "aliasName": "accent-1"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16597",
+      "name": "button/secondary-active-background",
+      "description": "Used for background colors of active secondary buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:217" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:217" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.9647498726844788,
+            "g": 0.561845600605011,
+            "b": 0.3751341998577118,
+            "a": 1
+          },
+          "alias": "VariableID:10841:217",
+          "aliasName": "accent-2"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.9647498726844788,
+            "g": 0.561845600605011,
+            "b": 0.3751341998577118,
+            "a": 1
+          },
+          "alias": "VariableID:10841:217",
+          "aliasName": "accent-2"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16598",
+      "name": "button/secondary-border",
+      "description": "Used for border colors of secondary buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.18998874723911285,
+            "g": 0.14750531315803528,
+            "b": 0.2029184252023697,
+            "a": 1
+          },
+          "alias": "VariableID:10841:212",
+          "aliasName": "foreground"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.18998874723911285,
+            "g": 0.14750531315803528,
+            "b": 0.2029184252023697,
+            "a": 1
+          },
+          "alias": "VariableID:10841:212",
+          "aliasName": "foreground"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": { "WEB": "button-secondary-border" }
+    },
+    {
+      "id": "VariableID:10861:16699",
+      "name": "button/ghost-background",
+      "description": "Used for background colors of ghost buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:211" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:211" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.9604679942131042,
+            "g": 0.9514479637145996,
+            "b": 0.9188371300697327,
+            "a": 1
+          },
+          "alias": "VariableID:10841:211",
+          "aliasName": "background"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.9604679942131042,
+            "g": 0.9514479637145996,
+            "b": 0.9188371300697327,
+            "a": 1
+          },
+          "alias": "VariableID:10841:211",
+          "aliasName": "background"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16700",
+      "name": "button/ghost-foreground",
+      "description": "Used for text or icon colors of ghost buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.18998874723911285,
+            "g": 0.14750531315803528,
+            "b": 0.2029184252023697,
+            "a": 1
+          },
+          "alias": "VariableID:10841:212",
+          "aliasName": "foreground"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.18998874723911285,
+            "g": 0.14750531315803528,
+            "b": 0.2029184252023697,
+            "a": 1
+          },
+          "alias": "VariableID:10841:212",
+          "aliasName": "foreground"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16701",
+      "name": "button/ghost-disabled-foreground",
+      "description": "Used for text or icon colors of disabled ghost buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:216" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:216" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.444364994764328,
+            "g": 0.41812533140182495,
+            "b": 0.4644306004047394,
+            "a": 1
+          },
+          "alias": "VariableID:10841:216",
+          "aliasName": "muted-foreground"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.444364994764328,
+            "g": 0.41812533140182495,
+            "b": 0.4644306004047394,
+            "a": 1
+          },
+          "alias": "VariableID:10841:216",
+          "aliasName": "muted-foreground"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16702",
+      "name": "button/ghost-disabled-background",
+      "description": "Used for background colors of disabled ghost buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.8408730626106262,
+            "g": 0.8189864158630371,
+            "b": 0.8591120839118958,
+            "a": 1
+          },
+          "alias": "VariableID:10841:215",
+          "aliasName": "muted-background"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.8408730626106262,
+            "g": 0.8189864158630371,
+            "b": 0.8591120839118958,
+            "a": 1
+          },
+          "alias": "VariableID:10841:215",
+          "aliasName": "muted-background"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16703",
+      "name": "button/ghost-hover-background",
+      "description": "Used for background colors of hover ghost buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10866:16635" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10866:16635" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.9847130179405212,
+            "g": 0.9814674854278564,
+            "b": 0.969733715057373,
+            "a": 1
+          },
+          "alias": "VariableID:10866:16635",
+          "aliasName": "background-subtle"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.9847130179405212,
+            "g": 0.9814674854278564,
+            "b": 0.969733715057373,
+            "a": 1
+          },
+          "alias": "VariableID:10866:16635",
+          "aliasName": "background-subtle"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16704",
+      "name": "button/ghost-active-background",
+      "description": "Used for background colors of active ghost buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.8408730626106262,
+            "g": 0.8189864158630371,
+            "b": 0.8591120839118958,
+            "a": 1
+          },
+          "alias": "VariableID:10841:215",
+          "aliasName": "muted-background"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.8408730626106262,
+            "g": 0.8189864158630371,
+            "b": 0.8591120839118958,
+            "a": 1
+          },
+          "alias": "VariableID:10841:215",
+          "aliasName": "muted-background"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10861:16705",
+      "name": "button/ghost-border",
+      "description": "Used for border colors of ghost buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.18998874723911285,
+            "g": 0.14750531315803528,
+            "b": 0.2029184252023697,
+            "a": 1
+          },
+          "alias": "VariableID:10841:212",
+          "aliasName": "foreground"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.18998874723911285,
+            "g": 0.14750531315803528,
+            "b": 0.2029184252023697,
+            "a": 1
+          },
+          "alias": "VariableID:10841:212",
+          "aliasName": "foreground"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": { "WEB": "button-ghost-border" }
+    },
+    {
+      "id": "VariableID:10866:16626",
+      "name": "destructive-emphasis",
+      "description": "Used for emphasized text colors, such as headings or important information.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "r": 0.5595139861106873, "g": 0, "b": 0.02664351835846901, "a": 1 },
+        "12544:0": { "r": 0.5595139861106873, "g": 0, "b": 0.02664351835846901, "a": 1 }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": { "r": 0.5595139861106873, "g": 0, "b": 0.02664351835846901, "a": 1 },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": { "r": 0.5595139861106873, "g": 0, "b": 0.02664351835846901, "a": 1 },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10866:16627",
+      "name": "destructive-subtle",
+      "description": "Used for subtle text colors, such as placeholder text or secondary information on destructive actions.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": {
+          "r": 0.9706655740737915,
+          "g": 0.7631632089614868,
+          "b": 0.773044228553772,
+          "a": 1
+        },
+        "12544:0": {
+          "r": 0.9706655740737915,
+          "g": 0.7631632089614868,
+          "b": 0.773044228553772,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.9706655740737915,
+            "g": 0.7631632089614868,
+            "b": 0.773044228553772,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.9706655740737915,
+            "g": 0.7631632089614868,
+            "b": 0.773044228553772,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10866:16628",
+      "name": "success",
+      "description": "Used for success actions, such as completing a task or saving data.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": {
+          "r": 0.022441383451223373,
+          "g": 0.567946195602417,
+          "b": 0.14063410460948944,
+          "a": 1
+        },
+        "12544:0": {
+          "r": 0.022441383451223373,
+          "g": 0.567946195602417,
+          "b": 0.14063410460948944,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.022441383451223373,
+            "g": 0.567946195602417,
+            "b": 0.14063410460948944,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.022441383451223373,
+            "g": 0.567946195602417,
+            "b": 0.14063410460948944,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10866:16629",
+      "name": "success-subtle",
+      "description": "Used for subtle text colors, such as placeholder text or secondary information on success actions.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": {
+          "r": 0.774438202381134,
+          "g": 0.8633188009262085,
+          "b": 0.7936956286430359,
+          "a": 1
+        },
+        "12544:0": {
+          "r": 0.774438202381134,
+          "g": 0.8633188009262085,
+          "b": 0.7936956286430359,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.774438202381134,
+            "g": 0.8633188009262085,
+            "b": 0.7936956286430359,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.774438202381134,
+            "g": 0.8633188009262085,
+            "b": 0.7936956286430359,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10866:16630",
+      "name": "success-emphasis",
+      "description": "Used for emphasized text colors, such as headings or important information on success actions.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": {
+          "r": 0.01203688234090805,
+          "g": 0.32835036516189575,
+          "b": 0.08057146519422531,
+          "a": 1
+        },
+        "12544:0": {
+          "r": 0.01203688234090805,
+          "g": 0.32835036516189575,
+          "b": 0.08057146519422531,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.01203688234090805,
+            "g": 0.32835036516189575,
+            "b": 0.08057146519422531,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.01203688234090805,
+            "g": 0.32835036516189575,
+            "b": 0.08057146519422531,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:10866:16635",
+      "name": "background-subtle",
+      "description": "Used for less prominent elements, such as disabled buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": {
+          "r": 0.9847130179405212,
+          "g": 0.9814674854278564,
+          "b": 0.969733715057373,
+          "a": 1
+        },
+        "12544:0": {
+          "r": 0.3137255012989044,
+          "g": 0.24705882370471954,
+          "b": 0.33725491166114807,
+          "a": 1
+        }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.9847130179405212,
+            "g": 0.9814674854278564,
+            "b": 0.969733715057373,
+            "a": 1
+          },
+          "alias": null
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.3137255012989044,
+            "g": 0.24705882370471954,
+            "b": 0.33725491166114807,
+            "a": 1
+          },
+          "alias": null
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    }
+  ]
+}
