@@ -334,7 +334,14 @@ const renderTokenLines = (tokens, indent) => {
   return lines;
 };
 
-const renderTailwindThemeLines = (tokens) => {
+const TYPOGRAPHY_PROPERTY_MAP = [
+  { suffix: /-size$/, twPrefix: "text", calcPx: true, label: "Font Size" },
+  { suffix: /-line-height$/, twPrefix: "leading", calcPx: true, label: "Line Height" },
+  { suffix: /-letter-spacing$/, twPrefix: "tracking", calcPx: true, label: "Letter Spacing" },
+  { suffix: /-weight$/, twPrefix: "font-weight", calcPx: false, label: "Font Weight" },
+];
+
+const renderColorThemeLines = (tokens) => {
   const colorTokens = tokens.filter((t) => t.type === "COLOR");
   const lines = [];
   let lastGroup = null;
@@ -354,6 +361,63 @@ const renderTailwindThemeLines = (tokens) => {
   }
 
   return { lines, count: colorTokens.length };
+};
+
+const renderTypographyThemeLines = (tokens) => {
+  const typographyTokens = tokens.filter((t) => t.collection === "typography");
+  if (typographyTokens.length === 0) return { lines: [], count: 0 };
+
+  const lines = [];
+  let count = 0;
+
+  const fontFamilyTokens = typographyTokens.filter((t) =>
+    t.name.startsWith("font-family-"),
+  );
+  if (fontFamilyTokens.length > 0) {
+    lines.push("  /* Typography / Font Family */");
+    for (const token of fontFamilyTokens) {
+      const fontName = token.name.replace(/^font-family-/, "");
+      lines.push(`  --font-${fontName}: var(--${token.name});`);
+      count++;
+    }
+  }
+
+  const scaledTokens = typographyTokens.filter(
+    (t) => !t.name.startsWith("font-family-"),
+  );
+
+  for (const { suffix, twPrefix, calcPx, label } of TYPOGRAPHY_PROPERTY_MAP) {
+    const matching = scaledTokens.filter((t) => suffix.test(t.name));
+    if (matching.length === 0) continue;
+
+    if (lines.length > 0) lines.push("");
+    lines.push(`  /* Typography / ${label} */`);
+
+    for (const token of matching) {
+      const scaleName = token.name.replace(suffix, "");
+      const value = calcPx
+        ? `calc(var(--${token.name}) * 1px)`
+        : `var(--${token.name})`;
+      lines.push(`  --${twPrefix}-${scaleName}: ${value};`);
+      count++;
+    }
+  }
+
+  return { lines, count };
+};
+
+const renderTailwindThemeLines = (tokens) => {
+  const { lines: colorLines, count: colorCount } = renderColorThemeLines(tokens);
+  const { lines: typographyLines, count: typographyCount } =
+    renderTypographyThemeLines(tokens);
+
+  const lines = [...colorLines];
+  if (typographyLines.length > 0) {
+    if (lines.length > 0) lines.push("");
+    lines.push(...typographyLines);
+  }
+
+  return { lines, count: colorCount + typographyCount };
 };
 
 const main = async () => {
