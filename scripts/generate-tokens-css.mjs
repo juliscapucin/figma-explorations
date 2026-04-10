@@ -439,10 +439,8 @@ const main = async () => {
   if (darkTokens.length > 0) {
     cssLines.push(
       "",
-      "@media (prefers-color-scheme: dark) {",
-      "  :root {",
-      ...renderTokenLines(darkTokens, "    "),
-      "  }",
+      ":root[data-theme='dark'] {",
+      ...renderTokenLines(darkTokens, "  "),
       "}",
     );
   }

@@ -35,13 +35,13 @@
     "VariableID:10861:16596",
     "VariableID:10861:16597",
     "VariableID:10861:16598",
-    "VariableID:10861:16699",
-    "VariableID:10861:16700",
-    "VariableID:10861:16701",
-    "VariableID:10861:16702",
-    "VariableID:10861:16703",
-    "VariableID:10861:16704",
-    "VariableID:10861:16705"
+    "VariableID:12563:456",
+    "VariableID:12563:457",
+    "VariableID:12563:458",
+    "VariableID:12563:459",
+    "VariableID:12563:460",
+    "VariableID:12563:461",
+    "VariableID:12563:462"
   ],
   "variables": [
     {
@@ -469,7 +469,7 @@
     },
     {
       "id": "VariableID:10861:16534",
-      "name": "button/primary-background",
+      "name": "Button/primary-background",
       "description": "Use this to emphasis main ui components",
       "type": "COLOR",
       "valuesByMode": {
@@ -504,7 +504,7 @@
     },
     {
       "id": "VariableID:10861:16535",
-      "name": "button/primary-foreground",
+      "name": "Button/primary-foreground",
       "description": "Used for text colors of primary buttons.",
       "type": "COLOR",
       "valuesByMode": {
@@ -539,7 +539,7 @@
     },
     {
       "id": "VariableID:10861:16536",
-      "name": "button/primary-disabled-foreground",
+      "name": "Button/primary-disabled-foreground",
       "description": "Used for text colors of disabled primary buttons.",
       "type": "COLOR",
       "valuesByMode": {
@@ -574,7 +574,7 @@
     },
     {
       "id": "VariableID:10861:16537",
-      "name": "button/primary-disabled-background",
+      "name": "Button/primary-disabled-background",
       "description": "Used for background colors of disabled primary buttons.",
       "type": "COLOR",
       "valuesByMode": {
@@ -609,7 +609,7 @@
     },
     {
       "id": "VariableID:10861:16538",
-      "name": "button/primary-hover-background",
+      "name": "Button/primary-hover-background",
       "description": "Used for background colors of hover primary buttons.",
       "type": "COLOR",
       "valuesByMode": {
@@ -717,7 +717,7 @@
     },
     {
       "id": "VariableID:10861:16541",
-      "name": "button/primary-active-background",
+      "name": "Button/primary-active-background",
       "description": "Used for background colors of active primary buttons.",
       "type": "COLOR",
       "valuesByMode": {
@@ -752,7 +752,7 @@
     },
     {
       "id": "VariableID:10861:16592",
-      "name": "button/secondary-background",
+      "name": "Button/secondary-background",
       "description": "Used for background colors of secondary buttons.",
       "type": "COLOR",
       "valuesByMode": {
@@ -787,7 +787,7 @@
     },
     {
       "id": "VariableID:10861:16593",
-      "name": "button/secondary-foreground",
+      "name": "Button/secondary-foreground",
       "description": "Used for text or icon colors of secondary buttons.",
       "type": "COLOR",
       "valuesByMode": {
@@ -822,7 +822,7 @@
     },
     {
       "id": "VariableID:10861:16594",
-      "name": "button/secondary-disabled-foreground",
+      "name": "Button/secondary-disabled-foreground",
       "description": "Used for text or icon colors of disabled secondary buttons.",
       "type": "COLOR",
       "valuesByMode": {
@@ -857,7 +857,7 @@
     },
     {
       "id": "VariableID:10861:16595",
-      "name": "button/secondary-disabled-background",
+      "name": "Button/secondary-disabled-background",
       "description": "Used for background colors of disabled secondary buttons.",
       "type": "COLOR",
       "valuesByMode": {
@@ -892,7 +892,7 @@
     },
     {
       "id": "VariableID:10861:16596",
-      "name": "button/secondary-hover-background",
+      "name": "Button/secondary-hover-background",
       "description": "Used for background colors of hover secondary buttons.",
       "type": "COLOR",
       "valuesByMode": {
@@ -917,7 +917,7 @@
     },
     {
       "id": "VariableID:10861:16597",
-      "name": "button/secondary-active-background",
+      "name": "Button/secondary-active-background",
       "description": "Used for background colors of active secondary buttons.",
       "type": "COLOR",
       "valuesByMode": {
@@ -952,7 +952,7 @@
     },
     {
       "id": "VariableID:10861:16598",
-      "name": "button/secondary-border",
+      "name": "Button/secondary-border",
       "description": "Used for border colors of secondary buttons.",
       "type": "COLOR",
       "valuesByMode": {
@@ -984,251 +984,6 @@
       "scopes": ["ALL_SCOPES"],
       "hiddenFromPublishing": false,
       "codeSyntax": { "WEB": "button-secondary-border" }
-    },
-    {
-      "id": "VariableID:10861:16699",
-      "name": "button/ghost-background",
-      "description": "Used for background colors of ghost buttons.",
-      "type": "COLOR",
-      "valuesByMode": {
-        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:211" },
-        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:211" }
-      },
-      "resolvedValuesByMode": {
-        "10841:0": {
-          "resolvedValue": {
-            "r": 0.9604679942131042,
-            "g": 0.9514479637145996,
-            "b": 0.9188371300697327,
-            "a": 1
-          },
-          "alias": "VariableID:10841:211",
-          "aliasName": "background"
-        },
-        "12544:0": {
-          "resolvedValue": {
-            "r": 0.9604679942131042,
-            "g": 0.9514479637145996,
-            "b": 0.9188371300697327,
-            "a": 1
-          },
-          "alias": "VariableID:10841:211",
-          "aliasName": "background"
-        }
-      },
-      "scopes": ["ALL_SCOPES"],
-      "hiddenFromPublishing": false,
-      "codeSyntax": {}
-    },
-    {
-      "id": "VariableID:10861:16700",
-      "name": "button/ghost-foreground",
-      "description": "Used for text or icon colors of ghost buttons.",
-      "type": "COLOR",
-      "valuesByMode": {
-        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" },
-        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" }
-      },
-      "resolvedValuesByMode": {
-        "10841:0": {
-          "resolvedValue": {
-            "r": 0.18998874723911285,
-            "g": 0.14750531315803528,
-            "b": 0.2029184252023697,
-            "a": 1
-          },
-          "alias": "VariableID:10841:212",
-          "aliasName": "foreground"
-        },
-        "12544:0": {
-          "resolvedValue": {
-            "r": 0.18998874723911285,
-            "g": 0.14750531315803528,
-            "b": 0.2029184252023697,
-            "a": 1
-          },
-          "alias": "VariableID:10841:212",
-          "aliasName": "foreground"
-        }
-      },
-      "scopes": ["ALL_SCOPES"],
-      "hiddenFromPublishing": false,
-      "codeSyntax": {}
-    },
-    {
-      "id": "VariableID:10861:16701",
-      "name": "button/ghost-disabled-foreground",
-      "description": "Used for text or icon colors of disabled ghost buttons.",
-      "type": "COLOR",
-      "valuesByMode": {
-        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:216" },
-        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:216" }
-      },
-      "resolvedValuesByMode": {
-        "10841:0": {
-          "resolvedValue": {
-            "r": 0.444364994764328,
-            "g": 0.41812533140182495,
-            "b": 0.4644306004047394,
-            "a": 1
-          },
-          "alias": "VariableID:10841:216",
-          "aliasName": "muted-foreground"
-        },
-        "12544:0": {
-          "resolvedValue": {
-            "r": 0.444364994764328,
-            "g": 0.41812533140182495,
-            "b": 0.4644306004047394,
-            "a": 1
-          },
-          "alias": "VariableID:10841:216",
-          "aliasName": "muted-foreground"
-        }
-      },
-      "scopes": ["ALL_SCOPES"],
-      "hiddenFromPublishing": false,
-      "codeSyntax": {}
-    },
-    {
-      "id": "VariableID:10861:16702",
-      "name": "button/ghost-disabled-background",
-      "description": "Used for background colors of disabled ghost buttons.",
-      "type": "COLOR",
-      "valuesByMode": {
-        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" },
-        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" }
-      },
-      "resolvedValuesByMode": {
-        "10841:0": {
-          "resolvedValue": {
-            "r": 0.8408730626106262,
-            "g": 0.8189864158630371,
-            "b": 0.8591120839118958,
-            "a": 1
-          },
-          "alias": "VariableID:10841:215",
-          "aliasName": "muted-background"
-        },
-        "12544:0": {
-          "resolvedValue": {
-            "r": 0.8408730626106262,
-            "g": 0.8189864158630371,
-            "b": 0.8591120839118958,
-            "a": 1
-          },
-          "alias": "VariableID:10841:215",
-          "aliasName": "muted-background"
-        }
-      },
-      "scopes": ["ALL_SCOPES"],
-      "hiddenFromPublishing": false,
-      "codeSyntax": {}
-    },
-    {
-      "id": "VariableID:10861:16703",
-      "name": "button/ghost-hover-background",
-      "description": "Used for background colors of hover ghost buttons.",
-      "type": "COLOR",
-      "valuesByMode": {
-        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10866:16635" },
-        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10866:16635" }
-      },
-      "resolvedValuesByMode": {
-        "10841:0": {
-          "resolvedValue": {
-            "r": 0.9847130179405212,
-            "g": 0.9814674854278564,
-            "b": 0.969733715057373,
-            "a": 1
-          },
-          "alias": "VariableID:10866:16635",
-          "aliasName": "background-subtle"
-        },
-        "12544:0": {
-          "resolvedValue": {
-            "r": 0.9847130179405212,
-            "g": 0.9814674854278564,
-            "b": 0.969733715057373,
-            "a": 1
-          },
-          "alias": "VariableID:10866:16635",
-          "aliasName": "background-subtle"
-        }
-      },
-      "scopes": ["ALL_SCOPES"],
-      "hiddenFromPublishing": false,
-      "codeSyntax": {}
-    },
-    {
-      "id": "VariableID:10861:16704",
-      "name": "button/ghost-active-background",
-      "description": "Used for background colors of active ghost buttons.",
-      "type": "COLOR",
-      "valuesByMode": {
-        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" },
-        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" }
-      },
-      "resolvedValuesByMode": {
-        "10841:0": {
-          "resolvedValue": {
-            "r": 0.8408730626106262,
-            "g": 0.8189864158630371,
-            "b": 0.8591120839118958,
-            "a": 1
-          },
-          "alias": "VariableID:10841:215",
-          "aliasName": "muted-background"
-        },
-        "12544:0": {
-          "resolvedValue": {
-            "r": 0.8408730626106262,
-            "g": 0.8189864158630371,
-            "b": 0.8591120839118958,
-            "a": 1
-          },
-          "alias": "VariableID:10841:215",
-          "aliasName": "muted-background"
-        }
-      },
-      "scopes": ["ALL_SCOPES"],
-      "hiddenFromPublishing": false,
-      "codeSyntax": {}
-    },
-    {
-      "id": "VariableID:10861:16705",
-      "name": "button/ghost-border",
-      "description": "Used for border colors of ghost buttons.",
-      "type": "COLOR",
-      "valuesByMode": {
-        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" },
-        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" }
-      },
-      "resolvedValuesByMode": {
-        "10841:0": {
-          "resolvedValue": {
-            "r": 0.18998874723911285,
-            "g": 0.14750531315803528,
-            "b": 0.2029184252023697,
-            "a": 1
-          },
-          "alias": "VariableID:10841:212",
-          "aliasName": "foreground"
-        },
-        "12544:0": {
-          "resolvedValue": {
-            "r": 0.18998874723911285,
-            "g": 0.14750531315803528,
-            "b": 0.2029184252023697,
-            "a": 1
-          },
-          "alias": "VariableID:10841:212",
-          "aliasName": "foreground"
-        }
-      },
-      "scopes": ["ALL_SCOPES"],
-      "hiddenFromPublishing": false,
-      "codeSyntax": { "WEB": "button-ghost-border" }
     },
     {
       "id": "VariableID:10866:16626",
@@ -1467,6 +1222,251 @@
       "scopes": ["ALL_SCOPES"],
       "hiddenFromPublishing": false,
       "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12563:456",
+      "name": "Button/ghost-background",
+      "description": "Used for background colors of ghost buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:211" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:211" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.9604679942131042,
+            "g": 0.9514479637145996,
+            "b": 0.9188371300697327,
+            "a": 1
+          },
+          "alias": "VariableID:10841:211",
+          "aliasName": "background"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.9604679942131042,
+            "g": 0.9514479637145996,
+            "b": 0.9188371300697327,
+            "a": 1
+          },
+          "alias": "VariableID:10841:211",
+          "aliasName": "background"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12563:457",
+      "name": "Button/ghost-foreground",
+      "description": "Used for text or icon colors of ghost buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.18998874723911285,
+            "g": 0.14750531315803528,
+            "b": 0.2029184252023697,
+            "a": 1
+          },
+          "alias": "VariableID:10841:212",
+          "aliasName": "foreground"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.18998874723911285,
+            "g": 0.14750531315803528,
+            "b": 0.2029184252023697,
+            "a": 1
+          },
+          "alias": "VariableID:10841:212",
+          "aliasName": "foreground"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12563:458",
+      "name": "Button/ghost-disabled-foreground",
+      "description": "Used for text or icon colors of disabled ghost buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:216" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:216" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.444364994764328,
+            "g": 0.41812533140182495,
+            "b": 0.4644306004047394,
+            "a": 1
+          },
+          "alias": "VariableID:10841:216",
+          "aliasName": "muted-foreground"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.444364994764328,
+            "g": 0.41812533140182495,
+            "b": 0.4644306004047394,
+            "a": 1
+          },
+          "alias": "VariableID:10841:216",
+          "aliasName": "muted-foreground"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12563:459",
+      "name": "Button/ghost-disabled-background",
+      "description": "Used for background colors of disabled ghost buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.8408730626106262,
+            "g": 0.8189864158630371,
+            "b": 0.8591120839118958,
+            "a": 1
+          },
+          "alias": "VariableID:10841:215",
+          "aliasName": "muted-background"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.8408730626106262,
+            "g": 0.8189864158630371,
+            "b": 0.8591120839118958,
+            "a": 1
+          },
+          "alias": "VariableID:10841:215",
+          "aliasName": "muted-background"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12563:460",
+      "name": "Button/ghost-hover-background",
+      "description": "Used for background colors of hover ghost buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10866:16635" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10866:16635" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.9847130179405212,
+            "g": 0.9814674854278564,
+            "b": 0.969733715057373,
+            "a": 1
+          },
+          "alias": "VariableID:10866:16635",
+          "aliasName": "background-subtle"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.9847130179405212,
+            "g": 0.9814674854278564,
+            "b": 0.969733715057373,
+            "a": 1
+          },
+          "alias": "VariableID:10866:16635",
+          "aliasName": "background-subtle"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12563:461",
+      "name": "Button/ghost-active-background",
+      "description": "Used for background colors of active ghost buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:215" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.8408730626106262,
+            "g": 0.8189864158630371,
+            "b": 0.8591120839118958,
+            "a": 1
+          },
+          "alias": "VariableID:10841:215",
+          "aliasName": "muted-background"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.8408730626106262,
+            "g": 0.8189864158630371,
+            "b": 0.8591120839118958,
+            "a": 1
+          },
+          "alias": "VariableID:10841:215",
+          "aliasName": "muted-background"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": {}
+    },
+    {
+      "id": "VariableID:12563:462",
+      "name": "Button/ghost-border",
+      "description": "Used for border colors of ghost buttons.",
+      "type": "COLOR",
+      "valuesByMode": {
+        "10841:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" },
+        "12544:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:10841:212" }
+      },
+      "resolvedValuesByMode": {
+        "10841:0": {
+          "resolvedValue": {
+            "r": 0.18998874723911285,
+            "g": 0.14750531315803528,
+            "b": 0.2029184252023697,
+            "a": 1
+          },
+          "alias": "VariableID:10841:212",
+          "aliasName": "foreground"
+        },
+        "12544:0": {
+          "resolvedValue": {
+            "r": 0.18998874723911285,
+            "g": 0.14750531315803528,
+            "b": 0.2029184252023697,
+            "a": 1
+          },
+          "alias": "VariableID:10841:212",
+          "aliasName": "foreground"
+        }
+      },
+      "scopes": ["ALL_SCOPES"],
+      "hiddenFromPublishing": false,
+      "codeSyntax": { "WEB": "button-ghost-border" }
     }
   ]
 }
