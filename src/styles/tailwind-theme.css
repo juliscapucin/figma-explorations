@@ -42,4 +42,87 @@
   --color-button-secondary-disabled-foreground: var(--button-secondary-disabled-foreground);
   --color-button-secondary-foreground: var(--button-secondary-foreground);
   --color-button-secondary-hover-background: var(--button-secondary-hover-background);
+
+  /* Typography / Font Family */
+  --font-p-p-frama: var(--font-family-p-p-frama);
+
+  /* Typography / Font Size */
+  --text-body-large: calc(var(--body-large-size) * 1px);
+  --text-body-medium: calc(var(--body-medium-size) * 1px);
+  --text-body-small: calc(var(--body-small-size) * 1px);
+  --text-display-large: calc(var(--display-large-size) * 1px);
+  --text-display-medium: calc(var(--display-medium-size) * 1px);
+  --text-display-small: calc(var(--display-small-size) * 1px);
+  --text-headline-large: calc(var(--headline-large-size) * 1px);
+  --text-headline-medium: calc(var(--headline-medium-size) * 1px);
+  --text-headline-small: calc(var(--headline-small-size) * 1px);
+  --text-label-large: calc(var(--label-large-size) * 1px);
+  --text-label-medium: calc(var(--label-medium-size) * 1px);
+  --text-label-small: calc(var(--label-small-size) * 1px);
+  --text-subline-large: calc(var(--subline-large-size) * 1px);
+  --text-subline-medium: calc(var(--subline-medium-size) * 1px);
+  --text-subline-small: calc(var(--subline-small-size) * 1px);
+  --text-title-large: calc(var(--title-large-size) * 1px);
+  --text-title-medium: calc(var(--title-medium-size) * 1px);
+  --text-title-small: calc(var(--title-small-size) * 1px);
+
+  /* Typography / Line Height */
+  --leading-body-large: calc(var(--body-large-line-height) * 1px);
+  --leading-body-medium: calc(var(--body-medium-line-height) * 1px);
+  --leading-body-small: calc(var(--body-small-line-height) * 1px);
+  --leading-display-large: calc(var(--display-large-line-height) * 1px);
+  --leading-display-medium: calc(var(--display-medium-line-height) * 1px);
+  --leading-display-small: calc(var(--display-small-line-height) * 1px);
+  --leading-headline-large: calc(var(--headline-large-line-height) * 1px);
+  --leading-headline-medium: calc(var(--headline-medium-line-height) * 1px);
+  --leading-headline-small: calc(var(--headline-small-line-height) * 1px);
+  --leading-label-large: calc(var(--label-large-line-height) * 1px);
+  --leading-label-medium: calc(var(--label-medium-line-height) * 1px);
+  --leading-label-small: calc(var(--label-small-line-height) * 1px);
+  --leading-subline-large: calc(var(--subline-large-line-height) * 1px);
+  --leading-subline-medium: calc(var(--subline-medium-line-height) * 1px);
+  --leading-subline-small: calc(var(--subline-small-line-height) * 1px);
+  --leading-title-large: calc(var(--title-large-line-height) * 1px);
+  --leading-title-medium: calc(var(--title-medium-line-height) * 1px);
+  --leading-title-small: calc(var(--title-small-line-height) * 1px);
+
+  /* Typography / Letter Spacing */
+  --tracking-body-large: calc(var(--body-large-letter-spacing) * 1px);
+  --tracking-body-medium: calc(var(--body-medium-letter-spacing) * 1px);
+  --tracking-body-small: calc(var(--body-small-letter-spacing) * 1px);
+  --tracking-display-large: calc(var(--display-large-letter-spacing) * 1px);
+  --tracking-display-medium: calc(var(--display-medium-letter-spacing) * 1px);
+  --tracking-display-small: calc(var(--display-small-letter-spacing) * 1px);
+  --tracking-headline-large: calc(var(--headline-large-letter-spacing) * 1px);
+  --tracking-headline-medium: calc(var(--headline-medium-letter-spacing) * 1px);
+  --tracking-headline-small: calc(var(--headline-small-letter-spacing) * 1px);
+  --tracking-label-large: calc(var(--label-large-letter-spacing) * 1px);
+  --tracking-label-medium: calc(var(--label-medium-letter-spacing) * 1px);
+  --tracking-label-small: calc(var(--label-small-letter-spacing) * 1px);
+  --tracking-subline-large: calc(var(--subline-large-letter-spacing) * 1px);
+  --tracking-subline-medium: calc(var(--subline-medium-letter-spacing) * 1px);
+  --tracking-subline-small: calc(var(--subline-small-letter-spacing) * 1px);
+  --tracking-title-large: calc(var(--title-large-letter-spacing) * 1px);
+  --tracking-title-medium: calc(var(--title-medium-letter-spacing) * 1px);
+  --tracking-title-small: calc(var(--title-small-letter-spacing) * 1px);
+
+  /* Typography / Font Weight */
+  --font-weight-body-large: var(--body-large-weight);
+  --font-weight-body-medium: var(--body-medium-weight);
+  --font-weight-body-small: var(--body-small-weight);
+  --font-weight-display-large: var(--display-large-weight);
+  --font-weight-display-medium: var(--display-medium-weight);
+  --font-weight-display-small: var(--display-small-weight);
+  --font-weight-headline-large: var(--headline-large-weight);
+  --font-weight-headline-medium: var(--headline-medium-weight);
+  --font-weight-headline-small: var(--headline-small-weight);
+  --font-weight-label-large: var(--label-large-weight);
+  --font-weight-label-medium: var(--label-medium-weight);
+  --font-weight-label-small: var(--label-small-weight);
+  --font-weight-subline-large: var(--subline-large-weight);
+  --font-weight-subline-medium: var(--subline-medium-weight);
+  --font-weight-subline-small: var(--subline-small-weight);
+  --font-weight-title-large: var(--title-large-weight);
+  --font-weight-title-medium: var(--title-medium-weight);
+  --font-weight-title-small: var(--title-small-weight);
 }

@@ -456,7 +456,7 @@ const main = async () => {
     `Generated ${baseTokens.length} base tokens and ${darkTokens.length} dark-mode overrides from ${tokenFiles.length} files: ${outputFile}`,
   );
 
-  const { lines: themeLines, count: colorCount } = renderTailwindThemeLines(baseTokens);
+  const { lines: themeLines, count: themeCount } = renderTailwindThemeLines(baseTokens);
   const tailwindThemeLines = [
     "/* Auto-generated from tokens/*.json. Do not edit directly. */",
     "@theme inline {",
@@ -468,7 +468,7 @@ const main = async () => {
   await fs.writeFile(tailwindThemeFile, tailwindThemeLines.join("\n"), "utf8");
 
   console.log(
-    `Generated ${colorCount} Tailwind theme color variables: ${tailwindThemeFile}`,
+    `Generated ${themeCount} Tailwind theme variables: ${tailwindThemeFile}`,
   );
 };
 
