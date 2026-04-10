@@ -8,10 +8,10 @@
 
 This project is a digital agency website built with:
 
-- Next.js 16 (App Router)
-- TypeScript
-- Tailwind CSS v4
-- Base UI components
+- Next.js (version from package.json: dependencies.next)
+- Tailwind CSS (devDependencies.tailwindcss)
+- TypeScript (devDependencies.typescript)
+- Base UI (dependencies.@base-ui/react or @base-ui-components/react)
 
 The goal is to create a **strict, token-driven design system** that enables reliable UI generation using AI tools (Cursor, Figma MCP).
 
@@ -127,9 +127,13 @@ AI must map semantic roles to:
 
 - `title-small`
 
-- `subline-large`, `subline-medium`, `subline-small`
+- `subline-large`, →
 
-- `body-large` → paragraphs
+- `subline-medium`,
+
+- `subline-small`
+
+- `body-large` →
 
 - `body-medium` → default text
 
