@@ -9,8 +9,7 @@ const tokensDir = path.join(projectRoot, "tokens");
 const outputFile = path.join(projectRoot, "src/styles/tokens.css");
 const tailwindThemeFile = path.join(projectRoot, "src/styles/tailwind-theme.css");
 
-const isObject = (value) =>
-  value !== null && typeof value === "object" && !Array.isArray(value);
+const isObject = (value) => value !== null && typeof value === "object" && !Array.isArray(value);
 
 const toKebab = (value) =>
   String(value)
@@ -22,10 +21,12 @@ const toKebab = (value) =>
     .toLowerCase();
 
 const tokenPathToVarName = (tokenPath) =>
-  tokenPath.map((part) => toKebab(part)).filter(Boolean).join("-");
+  tokenPath
+    .map((part) => toKebab(part))
+    .filter(Boolean)
+    .join("-");
 
-const normalizeCollectionName = (value) =>
-  tokenPathToVarName([value || "tokens"]) || "tokens";
+const normalizeCollectionName = (value) => tokenPathToVarName([value || "tokens"]) || "tokens";
 
 const typeOrder = new Map([
   ["COLOR", 1],
@@ -50,8 +51,7 @@ const compareTokens = (a, b) => {
   return a.name.localeCompare(b.name);
 };
 
-const channelToByte = (value) =>
-  Math.max(0, Math.min(255, Math.round(Number(value) * 255)));
+const channelToByte = (value) => Math.max(0, Math.min(255, Math.round(Number(value) * 255)));
 
 const rgbaToCss = ({ r, g, b, a = 1 }) => {
   const red = channelToByte(r);
@@ -184,8 +184,7 @@ const extractFromCollectionFormat = (json, fileName) => {
     return { baseTokens: [], darkTokens: [] };
   }
 
-  const baseModeId =
-    getCollectionModeId(json.modes, /light/i) ?? modeEntries[0][0];
+  const baseModeId = getCollectionModeId(json.modes, /light/i) ?? modeEntries[0][0];
   const darkModeId = getCollectionModeId(json.modes, /dark/i);
 
   const idToVarName = new Map();
@@ -247,10 +246,7 @@ const extractFromCollectionFormat = (json, fileName) => {
       });
     }
 
-    if (
-      darkModeId &&
-      Object.prototype.hasOwnProperty.call(variable.valuesByMode, darkModeId)
-    ) {
+    if (darkModeId && Object.prototype.hasOwnProperty.call(variable.valuesByMode, darkModeId)) {
       darkTokens.push({
         name: varName,
         value: readModeValue(variable.valuesByMode[darkModeId]),
@@ -297,8 +293,7 @@ const loadTokensFromFiles = async (fileNames) => {
     const raw = await fs.readFile(tokenFilePath, "utf8");
     const json = JSON.parse(raw);
     const parsed =
-      extractFromCollectionFormat(json, tokenFile) ??
-      extractFromLegacyFormat(json, tokenFile);
+      extractFromCollectionFormat(json, tokenFile) ?? extractFromLegacyFormat(json, tokenFile);
     baseTokens.push(...parsed.baseTokens);
     darkTokens.push(...parsed.darkTokens);
   }
@@ -347,9 +342,7 @@ const renderColorThemeLines = (tokens) => {
   let lastGroup = null;
 
   for (const token of colorTokens) {
-    const group = token.group
-      ? `${token.collectionLabel} / ${token.group}`
-      : token.collectionLabel;
+    const group = token.group ? `${token.collectionLabel} / ${token.group}` : token.collectionLabel;
 
     if (group !== lastGroup) {
       if (lastGroup !== null) lines.push("");
@@ -370,9 +363,7 @@ const renderTypographyThemeLines = (tokens) => {
   const lines = [];
   let count = 0;
 
-  const fontFamilyTokens = typographyTokens.filter((t) =>
-    t.name.startsWith("font-family-"),
-  );
+  const fontFamilyTokens = typographyTokens.filter((t) => t.name.startsWith("font-family-"));
   if (fontFamilyTokens.length > 0) {
     lines.push("  /* Typography / Font Family */");
     for (const token of fontFamilyTokens) {
@@ -382,9 +373,7 @@ const renderTypographyThemeLines = (tokens) => {
     }
   }
 
-  const scaledTokens = typographyTokens.filter(
-    (t) => !t.name.startsWith("font-family-"),
-  );
+  const scaledTokens = typographyTokens.filter((t) => !t.name.startsWith("font-family-"));
 
   for (const { suffix, twPrefix, calcPx, label } of TYPOGRAPHY_PROPERTY_MAP) {
     const matching = scaledTokens.filter((t) => suffix.test(t.name));
@@ -395,9 +384,7 @@ const renderTypographyThemeLines = (tokens) => {
 
     for (const token of matching) {
       const scaleName = token.name.replace(suffix, "");
-      const value = calcPx
-        ? `calc(var(--${token.name}) * 1px)`
-        : `var(--${token.name})`;
+      const value = calcPx ? `calc(var(--${token.name}) * 1px)` : `var(--${token.name})`;
       lines.push(`  --${twPrefix}-${scaleName}: ${value};`);
       count++;
     }
@@ -408,8 +395,7 @@ const renderTypographyThemeLines = (tokens) => {
 
 const renderTailwindThemeLines = (tokens) => {
   const { lines: colorLines, count: colorCount } = renderColorThemeLines(tokens);
-  const { lines: typographyLines, count: typographyCount } =
-    renderTypographyThemeLines(tokens);
+  const { lines: typographyLines, count: typographyCount } = renderTypographyThemeLines(tokens);
 
   const lines = [...colorLines];
   if (typographyLines.length > 0) {
@@ -437,12 +423,7 @@ const main = async () => {
   ];
 
   if (darkTokens.length > 0) {
-    cssLines.push(
-      "",
-      ":root[data-theme='dark'] {",
-      ...renderTokenLines(darkTokens, "  "),
-      "}",
-    );
+    cssLines.push("", ":root[data-theme='dark'] {", ...renderTokenLines(darkTokens, "  "), "}");
   }
 
   cssLines.push("");
@@ -465,9 +446,7 @@ const main = async () => {
 
   await fs.writeFile(tailwindThemeFile, tailwindThemeLines.join("\n"), "utf8");
 
-  console.log(
-    `Generated ${themeCount} Tailwind theme variables: ${tailwindThemeFile}`,
-  );
+  console.log(`Generated ${themeCount} Tailwind theme variables: ${tailwindThemeFile}`);
 };
 
 main().catch((error) => {

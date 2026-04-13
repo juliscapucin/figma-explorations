@@ -6,3 +6,8 @@
 :root {
   interpolate-size: allow-keywords; /* To animate auto-height on accordion component */
 }
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}

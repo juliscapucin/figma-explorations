@@ -1,25 +1,25 @@
 /* Auto-generated from tokens/*.json. Do not edit directly. */
 :root {
   /* Colors */
-  --accent-1: #fffd96;
-  --accent-2: #f68f60;
-  --accent-3: #4c7ecf;
-  --accent-4: #28b297;
-  --accent-5: #dad5c9;
-  --background: #f5f3ea;
-  --background-subtle: #fbfaf7;
-  --destructive: #e7000b;
-  --destructive-emphasis: #8f0007;
-  --destructive-subtle: #f8c3c5;
+  --accent-1: #FFFD96;
+  --accent-2: #F68F60;
+  --accent-3: #4C7ECF;
+  --accent-4: #28B297;
+  --accent-5: #DAD5C9;
+  --background: #F5F3EA;
+  --background-subtle: #FBFAF7;
+  --destructive: #E7000B;
+  --destructive-emphasis: #8F0007;
+  --destructive-subtle: #F8C3C5;
   --foreground: #302634;
-  --foreground-emphasis: #1f1821;
-  --foreground-subtle: #503f56;
-  --muted-background: #d6d1db;
-  --muted-foreground: #716b76;
-  --ring: #9a969e;
+  --foreground-emphasis: #1F1821;
+  --foreground-subtle: #503F56;
+  --muted-background: #D6D1DB;
+  --muted-foreground: #716B76;
+  --ring: #9A969E;
   --success: #069124;
   --success-emphasis: #035415;
-  --success-subtle: #c5dcca;
+  --success-subtle: #C5DCCA;
 
   /* Colors / Button */
   --button-ghost-active-background: var(--muted-background);
@@ -94,16 +94,16 @@
 
   /* Typography / Label */
   --label-large-letter-spacing: 0;
-  --label-large-line-height: 18;
-  --label-large-size: 18;
+  --label-large-line-height: 20;
+  --label-large-size: 20;
   --label-large-weight: 400;
   --label-medium-letter-spacing: 0;
-  --label-medium-line-height: 16;
-  --label-medium-size: 16;
+  --label-medium-line-height: 18;
+  --label-medium-size: 18;
   --label-medium-weight: 400;
   --label-small-letter-spacing: 0;
-  --label-small-line-height: 14;
-  --label-small-size: 14;
+  --label-small-line-height: 16;
+  --label-small-size: 16;
   --label-small-weight: 400;
 
   /* Typography / Subline */
@@ -135,27 +135,27 @@
   --title-small-weight: 900;
 }
 
-:root[data-theme="dark"] {
+:root[data-theme='dark'] {
   /* Colors */
-  --accent-1: #fffd96;
-  --accent-2: #f68f60;
-  --accent-3: #4c7ecf;
-  --accent-4: #28b297;
-  --accent-5: #dad5c9;
+  --accent-1: #FFFD96;
+  --accent-2: #F68F60;
+  --accent-3: #4C7ECF;
+  --accent-4: #28B297;
+  --accent-5: #DAD5C9;
   --background: #302634;
-  --background-subtle: #503f56;
-  --destructive: #e7000b;
-  --destructive-emphasis: #8f0007;
-  --destructive-subtle: #f8c3c5;
-  --foreground: #f5f3ea;
-  --foreground-emphasis: #ffffff;
-  --foreground-subtle: #fbfaf7;
-  --muted-background: #716b76;
-  --muted-foreground: #d6d1db;
-  --ring: #9a969e;
+  --background-subtle: #503F56;
+  --destructive: #E7000B;
+  --destructive-emphasis: #8F0007;
+  --destructive-subtle: #F8C3C5;
+  --foreground: #F5F3EA;
+  --foreground-emphasis: #FFFFFF;
+  --foreground-subtle: #FBFAF7;
+  --muted-background: #716B76;
+  --muted-foreground: #D6D1DB;
+  --ring: #9A969E;
   --success: #069124;
   --success-emphasis: #035415;
-  --success-subtle: #c5dcca;
+  --success-subtle: #C5DCCA;
 
   /* Colors / Button */
   --button-ghost-active-background: var(--muted-background);
