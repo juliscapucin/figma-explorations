@@ -1,3 +1,8 @@
 @import "tailwindcss";
 @import "../src/styles/tokens.css";
 @import "../src/styles/tailwind-theme.css";
+@import "../src/styles/animations.css";
+
+:root {
+  interpolate-size: allow-keywords; /* To animate auto-height on accordion component */
+}
